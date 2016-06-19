@@ -1,0 +1,10 @@
+body {
+  background-color: #f1f1f1; }
+
+.portfolio-wrapper {
+  width: 1152px;
+  height: 5177px;
+  background-image: url("../portfolio.png");
+  background-size: 1152px 5177px;
+  margin: 80px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
