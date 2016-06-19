@@ -1,0 +1,42 @@
+$mobile-width: 768px;
+$desktop-width: 1024px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+$color-black:     #222222;
+$color-lightgray: #f5f5f5;
+$color-white:     #ffffff;
+
+body {
+	background-color: $color-lightgray;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	color: $color-black;
+}
+
+.wrapper {
+
+	@include desktop {
+    	width: 76%;
+		background-color: $color-white;
+		margin: 40px auto;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);	
+	}
+
+	padding: 2rem;
+
+	span {
+		font-weight: 300;
+		font-size: 1.2rem;
+	}
+}
