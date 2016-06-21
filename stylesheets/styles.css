@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0px 0px 0px 20px #5068ee; }
+  box-shadow: inset 0px 0px 0px 12px #5068ee; }
 
 .wrapper {
   text-align: center; }
@@ -22,7 +22,18 @@ body {
   height: 140px;
   margin: 0 auto; }
 
+h1,
+h2 {
+  margin-bottom: 0; }
+
 h1 {
   font-size: 60px;
   font-weight: 800;
-  letter-spacing: -0.1rem; }
+  letter-spacing: -0.1rem;
+  margin-top: 32px; }
+
+.title {
+  color: #cccccc;
+  font-weight: normal;
+  margin-top: 16px;
+  font-size: 20px; }
