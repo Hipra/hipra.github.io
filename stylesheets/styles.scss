@@ -16,27 +16,38 @@ $desktop-width: 1024px;
 $color-black:     #222222;
 $color-lightgray: #f5f5f5;
 $color-white:     #ffffff;
+$color-blue:      #5068ee;
+$portrait-size: 140px;
+
+
+html { height: 100%; }
 
 body {
-	background-color: $color-lightgray;
+    color: $color-white;
 	margin: 0;
+    background-color: $color-blue;
 	font-family: 'Lato', sans-serif;
-	color: $color-black;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 30px $color-white;
 }
 
 .wrapper {
+    text-align: center;
+}
 
-	@include desktop {
-    	width: 76%;
-		background-color: $color-white;
-		margin: 40px auto;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);	
-	}
+.portrait {
+    background-image: url('../images/portrait-ff.png');
+    background-size: $portrait-size;
+    display: block;
+    width: $portrait-size;
+    height: $portrait-size;
+    margin: 0 auto;
+}
 
-	padding: 2rem;
-
-	span {
-		font-weight: 300;
-		font-size: 1.2rem;
-	}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
 }
