@@ -2,15 +2,14 @@ html {
   height: 100%; }
 
 body {
-  color: #ffffff;
+  color: #222222;
   margin: 0;
-  background-color: #5068ee;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0px 0px 0px 30px #ffffff; }
+  box-shadow: inset 0px 0px 0px 20px #5068ee; }
 
 .wrapper {
   text-align: center; }
@@ -24,5 +23,6 @@ body {
   margin: 0 auto; }
 
 h1 {
-  font-size: 40px;
-  font-weight: bold; }
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -0.1rem; }
