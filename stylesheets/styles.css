@@ -4,12 +4,13 @@ html {
 body {
   color: #222222;
   margin: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0px 0px 0px 12px #5068ee; }
+  box-shadow: inset 0px 0px 0px 12px #5068ee;
+  flex-direction: column; }
 
 .wrapper {
   text-align: center; }
@@ -37,3 +38,30 @@ h1 {
   font-weight: normal;
   margin-top: 16px;
   font-size: 20px; }
+
+.contacts {
+  margin-top: 80px;
+  display: flex;
+  position: relative;
+  padding: 0; }
+  .contacts li {
+    list-style-type: none;
+    margin-right: 16px; }
+    .contacts li:last-child {
+      margin-right: 0; }
+  .contacts .contact {
+    display: block;
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+    transition: opacity 0.2s linear; }
+    .contacts .contact:hover {
+      opacity: 1;
+      transition: opacity 0.2s linear; }
+    .contacts .contact.email {
+      background-image: url("../images/icon-email.svg");
+      width: 32px; }
+    .contacts .contact.dribbble {
+      background-image: url("../images/icon-dribbble.svg"); }
+    .contacts .contact.instagram {
+      background-image: url("../images/icon-instagram.svg"); }
