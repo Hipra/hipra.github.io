@@ -63,16 +63,18 @@ h1 {
       margin-right: 0; }
   .contacts .contact {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
     opacity: 0.6;
-    transition: opacity 0.2s linear; }
+    transition: opacity 0.2s linear;
+    background-repeat: no-repeat;
+    background-position: center; }
     .contacts .contact:hover {
       opacity: 1;
       transition: opacity 0.2s linear; }
     .contacts .contact.email {
       background-image: url("../images/icon-email.svg");
-      width: 32px; }
+      width: 34px; }
     .contacts .contact.dribbble {
       background-image: url("../images/icon-dribbble.svg"); }
     .contacts .contact.instagram {

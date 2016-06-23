@@ -96,10 +96,12 @@ h1 {
 
     .contact {
         display: block;
-        width: 24px;
-        height: 24px;
+        width: 26px;
+        height: 26px;
         opacity: 0.6;
         transition: opacity 0.2s linear;
+        background-repeat: no-repeat;
+        background-position: center;
 
         &:hover {
             opacity: 1;
@@ -108,7 +110,7 @@ h1 {
 
         &.email {
             background-image: url('../images/icon-email.svg');
-            width: 32px;
+            width: 34px;
         }
 
         &.dribbble { background-image: url('../images/icon-dribbble.svg'); }
