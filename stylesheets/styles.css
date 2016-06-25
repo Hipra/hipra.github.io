@@ -34,6 +34,9 @@ h1 {
   letter-spacing: -0.1rem;
   margin-top: 32px;
   padding: 0 32px; }
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 36px; } }
 
 .title {
   color: #cccccc;
@@ -55,7 +58,7 @@ h1 {
     background-color: #222222;
     position: absolute;
     top: 0px;
-    left: 55px; }
+    left: 45%; }
   .contacts li {
     list-style-type: none;
     margin-right: 24px; }
@@ -79,3 +82,19 @@ h1 {
       background-image: url("../images/icon-dribbble.svg"); }
     .contacts .contact.instagram {
       background-image: url("../images/icon-instagram.svg"); }
+
+.resume {
+  border: solid 2px #222222;
+  opacity: 0.6;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 0 6px;
+  color: #222222;
+  text-decoration: none;
+  transition: opacity 0.2s linear; }
+  .resume:hover {
+    opacity: 1;
+    transition: opacity 0.2s linear; }

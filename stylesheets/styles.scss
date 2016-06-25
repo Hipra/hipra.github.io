@@ -20,6 +20,7 @@ $color-blue:      #5068ee;
 $color-graytext:  #cccccc;
 $portrait-size: 140px;
 
+$transition-opacity: opacity 0.2s linear;
 
 html { height: 100%; }
 
@@ -58,6 +59,10 @@ h1 {
     letter-spacing: -0.1rem;
     margin-top: 32px;
     padding: 0 32px;
+
+    @include mobile {
+      font-size: 36px;
+    }
 }
 
 .title {
@@ -82,7 +87,7 @@ h1 {
         background-color: $color-black;
         position: absolute;
         top: 0px;
-        left: 55px;
+        left: 45%;
     }
 
     li {
@@ -99,13 +104,13 @@ h1 {
         width: 26px;
         height: 26px;
         opacity: 0.6;
-        transition: opacity 0.2s linear;
+        transition: $transition-opacity;
         background-repeat: no-repeat;
         background-position: center;
 
         &:hover {
             opacity: 1;
-            transition: opacity 0.2s linear;
+            transition: $transition-opacity;
         }
 
         &.email {
@@ -116,5 +121,25 @@ h1 {
         &.dribbble { background-image: url('../images/icon-dribbble.svg'); }
 
         &.instagram { background-image: url('../images/icon-instagram.svg'); }
+
     }
+}
+
+.resume {
+  border: solid 2px $color-black;
+  opacity: 0.6;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 0 6px;
+  color: $color-black;
+  text-decoration: none;
+  transition: $transition-opacity;
+
+  &:hover {
+    opacity: 1;
+    transition: $transition-opacity;
+  }
 }
