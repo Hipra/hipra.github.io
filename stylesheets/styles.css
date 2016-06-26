@@ -1,3 +1,15 @@
+@keyframes dropWrapper {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+@keyframes showContacts {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 html {
   height: 100%; }
 
@@ -14,7 +26,11 @@ body {
 
 .wrapper {
   text-align: center;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  animation-name: dropWrapper;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 0.8s; }
 
 .portrait {
   background-image: url("../images/portrait.png");
@@ -49,7 +65,14 @@ h1 {
   position: relative;
   padding: 40px 0 0;
   margin: 0;
-  justify-content: center; }
+  justify-content: center;
+  opacity: 0;
+  animation-name: showContacts;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 1s; }
   .contacts:before {
     content: '';
     display: block;
