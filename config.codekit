@@ -13,17 +13,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/portrait-ff.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74360,
-		"inputAbbreviatedPath": "\/images\/portrait-ff.png",
-		"outputAbbreviatedPath": "\/images\/portrait-ff.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/portrait.png": {
 		"fileType": 32768,
 		"ignore": 0,
