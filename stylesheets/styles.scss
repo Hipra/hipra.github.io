@@ -64,6 +64,13 @@ body {
     align-items: center;
     box-shadow: inset 0px 0px 0px 12px $color-blue;
     flex-direction: column;
+	opacity: 0;
+
+	animation-name: showContacts;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-duration: 0.6s;
 }
 
 .wrapper {
