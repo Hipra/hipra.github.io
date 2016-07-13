@@ -1,0 +1,52 @@
+body {
+  background-color: #111;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.mockups {
+  width: 100%;
+  margin-bottom: 160px;
+}
+
+.landscape {
+    width: 1200px;
+    height: 847px;
+    background-size: 1200px 847px;
+}
+
+.portrait {
+    width: 847px;
+    height: 1200px;
+    background-size: 847px 1200px;
+    margin: 0 auto 160px auto;
+}
+
+
+div {
+  margin-bottom: 160px;
+}
+
+.design-1 { background-image: url('../images/dashboard-landscape.png'); }
+
+.design-1p { background-image: url('../images/dashboard-portrait.png'); }
+
+.design-2 { background-image: url('../images/show-landscape.png'); }
+
+.design-2p { background-image: url('../images/show-portrait.png'); }
+
+.help-wrapper {
+  width: 100%;
+  background-color: #111;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.help {
+  width: 682px;
+  height: 768px;
+}
