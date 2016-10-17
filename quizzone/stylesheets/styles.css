@@ -4,27 +4,26 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
 
-.header {
+#header {
   background-color: #f1f1f1;
   position: fixed;
   top: 0;
   width: 100%;
   padding: 14px 0;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  opacity: 0; }
+  #header.show {
+    opacity: 1;
+    transition: opacity 0.2s linear; }
 
-#topLogo {
+.topLogo {
   background-image: url("../assets/qz_small-14.png");
   background-size: 120px 33px;
   width: 120px;
   height: 33px;
   position: absolute;
   top: 8px;
-  left: 10px;
-  opacity: 0;
-  transition: opacity 0.2s linear; }
-  #topLogo.show {
-    opacity: 1;
-    transition: opacity 0.2s linear; }
+  left: 10px; }
 
 .content-wrapper {
   margin: 0 auto;
@@ -41,14 +40,6 @@ body {
     list-style-type: none;
     margin: 0 20px;
     position: relative; }
-    .topMenu li:hover:after {
-      display: block;
-      content: '';
-      height: 4px;
-      background-color: #f8901f;
-      position: absolute;
-      width: 100%;
-      top: 26px; }
     .topMenu li a {
       color: #333333;
       text-decoration: none;
@@ -75,15 +66,49 @@ body {
     .social .social-icons.youtube {
       background-image: url("../assets/YouTube-social-square-red.png"); }
 
-.logo-qz {
-  background-image: url("../assets/qz_small-14.png");
-  background-position: center;
-  width: 396px;
-  height: 110px;
-  background-size: 396px 110px;
-  margin: 80px auto 0; }
-
 .header-image {
   background-image: url("../assets/header-image.jpg");
   height: 480px;
   background-size: cover; }
+
+.mainHeader {
+  position: relative;
+  display: flex;
+  align-items: center; }
+  .mainHeader .logo-qz {
+    background-image: url("../assets/qz_small-14.png");
+    background-position: center;
+    width: 238px;
+    height: 66px;
+    background-size: 238px 66px;
+    margin: 40px 0 40px 40px; }
+  .mainHeader #mainMenu {
+    margin: 0;
+    display: flex; }
+    .mainHeader #mainMenu li {
+      list-style-type: none;
+      font-size: 20px;
+      margin: 0 16px; }
+      .mainHeader #mainMenu li a {
+        color: #111111;
+        text-decoration: none; }
+        .mainHeader #mainMenu li a:hover {
+          color: #f8901f; }
+    .mainHeader #mainMenu .mainSocial {
+      margin: 0;
+      display: flex;
+      position: absolute;
+      right: 40px; }
+      .mainHeader #mainMenu .mainSocial li {
+        list-style-type: none;
+        margin: 0; }
+      .mainHeader #mainMenu .mainSocial .social-icons {
+        display: block;
+        background-size: 29px;
+        width: 29px;
+        height: 29px; }
+        .mainHeader #mainMenu .mainSocial .social-icons.facebook {
+          background-image: url("../assets/FB-f-Logo__blue_58.png");
+          margin-right: 10px; }
+        .mainHeader #mainMenu .mainSocial .social-icons.youtube {
+          background-image: url("../assets/YouTube-social-square-red.png"); }

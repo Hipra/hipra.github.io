@@ -8,8 +8,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
 	</head>
 	<body>
-		<div class="header">
-			<div id="topLogo"></div>
+		<div id="header">
+			<div class="topLogo"></div>
 			<ul class="topMenu">
 				<li>
 					<a href="#">Főoldal</a>
@@ -30,20 +30,39 @@
 				</li>
 			</ul>
 		</div>
-		<div class="header-image"></div>
-		<div class="content-wrapper">
+		<div class="mainHeader">
 			<div class="logo-qz"></div>
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<ul id="mainMenu">
+				<li>
+					<a href="#">Főoldal</a>
+				</li>
+				<li>
+					<a href="#">Játékosoknak</a>
+				</li>
+				<li>
+					<a href="#">Cégeknek, megrendelőknek</a>
+				</li>
+				<ul class="mainSocial">
+					<li>
+						<a href="https://www.facebook.com/quizzone.hu" class="social-icons facebook" target="_blank"></a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCVAupZQLvSXNqrNr83pxLhw" class="social-icons youtube" target="_blank"></a>
+					</li>
+				</ul>
+			</ul>
 		</div>
+		<div class="header-image"></div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 		<script>
 			window.onscroll = function() {myFunction()};
 
 			function myFunction() {
 				if (document.body.scrollTop > 140 || document.documentElement.scrollTop > 140) {
-					document.getElementById("topLogo").className = "show";
+					document.getElementById("header").className = "show";
 				} else {
-					document.getElementById("topLogo").className = "";
+					document.getElementById("header").className = "";
 				}
 			}
 		</script>

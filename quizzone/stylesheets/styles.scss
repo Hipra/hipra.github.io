@@ -26,16 +26,23 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.header {
+#header {
   background-color: $color-smoke;
   position: fixed;
   top: 0;
   width: 100%;
   padding: 14px 0;
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.15);
+  opacity: 0;
+
+  &.show {
+    opacity: 1;
+    transition: opacity 0.2s linear;
+  }
+
 }
 
-#topLogo {
+.topLogo {
   background-image: url('../assets/qz_small-14.png');
   background-size: 120px 33px;
   width: 120px;
@@ -43,13 +50,6 @@ body {
   position: absolute;
   top: 8px;
   left: 10px;
-  opacity: 0;
-  transition: opacity 0.2s linear;
-
-  &.show {
-    opacity: 1;
-    transition: opacity 0.2s linear;
-  }
 }
 
 .content-wrapper {
@@ -71,18 +71,6 @@ body {
     list-style-type: none;
     margin: 0 20px;
     position: relative;
-
-    &:hover {
-      &:after {
-        display: block;
-        content: '';
-        height: 4px;
-        background-color: $color-brand;
-        position: absolute;
-        width: 100%;
-        top: 26px;
-      }
-    }
 
     a {
       color: $color-darkgray;
@@ -124,18 +112,73 @@ body {
   }
 }
 
-.logo-qz {
-  background-image: url('../assets/qz_small-14.png');
-  background-position: center;
-  $logo-size: 396px;
-  width: $logo-size;
-  height: 110px;
-  background-size: $logo-size 110px;
-  margin: 80px auto 0;
-}
-
 .header-image {
   background-image: url('../assets/header-image.jpg');
   height: 480px;
   background-size: cover;
+}
+
+.mainHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .logo-qz {
+    background-image: url('../assets/qz_small-14.png');
+    background-position: center;
+    $logo-size: 238px;
+    width: $logo-size;
+    height: 66px;
+    background-size: $logo-size 66px;
+    margin: 40px 0 40px 40px;
+  }
+
+  #mainMenu {
+    margin: 0;
+    display: flex;
+
+    li {
+      list-style-type: none;
+      font-size: 20px;
+      margin: 0 16px;
+
+      a {
+        color: $color-black;
+        text-decoration: none;
+
+        &:hover {
+          color: $color-brand;
+        }
+      }
+    }
+
+    .mainSocial {
+      margin: 0;
+      display: flex;
+      position: absolute;
+      right: 40px;
+
+      li {
+        list-style-type: none;
+        margin: 0;
+      }
+
+      .social-icons {
+        display: block;
+        background-size: 29px;
+        width: 29px;
+        height: 29px;
+
+        &.facebook {
+          background-image: url('../assets/FB-f-Logo__blue_58.png');
+          margin-right: 10px;
+        }
+
+        &.youtube {
+          background-image: url('../assets/YouTube-social-square-red.png');
+        }
+      }
+    }
+
+  }
 }
