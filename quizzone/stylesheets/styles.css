@@ -82,3 +82,8 @@ body {
   height: 110px;
   background-size: 396px 110px;
   margin: 80px auto 0; }
+
+.header-image {
+  background-image: url("../assets/header-image.jpg");
+  height: 480px;
+  background-size: cover; }
