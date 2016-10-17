@@ -281,6 +281,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/quizzone\/assets\/header-image-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 644597,
+		"inputAbbreviatedPath": "\/quizzone\/assets\/header-image-2.jpg",
+		"outputAbbreviatedPath": "\/quizzone\/assets\/header-image-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/quizzone\/assets\/header-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
