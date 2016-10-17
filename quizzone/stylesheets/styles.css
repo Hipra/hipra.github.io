@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+.header {
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 8px 0;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15); }
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 960px; }
+  @media (max-width: 767px) {
+    .content-wrapper {
+      width: 100%; } }
+
+.topMenu {
+  display: flex;
+  margin: 0;
+  justify-content: center; }
+  .topMenu li {
+    list-style-type: none;
+    margin: 0 20px;
+    position: relative; }
+    .topMenu li:hover:after {
+      display: block;
+      content: '';
+      height: 4px;
+      background-color: #f8901f;
+      position: absolute;
+      width: 100%;
+      top: 26px; }
+    .topMenu li a {
+      color: #333333;
+      text-decoration: none;
+      font-size: 16px; }
+      .topMenu li a:hover {
+        color: #f8901f; }
+
+.social {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  top: 4px;
+  right: 4px; }
+  .social li {
+    list-style-type: none; }
+  .social .social-icons {
+    display: block;
+    background-size: 29px;
+    width: 29px;
+    height: 29px; }
+    .social .social-icons.facebook {
+      background-image: url("../assets/FB-f-Logo__blue_58.png");
+      margin-right: 6px; }
+    .social .social-icons.youtube {
+      background-image: url("../assets/YouTube-social-square-red.png"); }
+
+.logo-qz {
+  background-image: url("../assets/qz_small-14.png");
+  background-position: center;
+  width: 400px;
+  height: 200px;
+  background-size: 400px;
+  margin: 40px auto 0; }

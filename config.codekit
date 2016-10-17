@@ -1,7 +1,190 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
+	"\/accedo-test\/images\/1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 703471,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/1.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 524371,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/2.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 760871,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/3.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 718368,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/4.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 880050,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/5.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 588726,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/6.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 587773,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/7.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555309,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/8.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/dashboard-landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.39375e+06,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/dashboard-landscape.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/dashboard-landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/dashboard-portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.03726e+06,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/dashboard-portrait.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/dashboard-portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/Help.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139962,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/Help.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/Help.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/r1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18279e+06,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/r1.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/r1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/r2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.28399e+06,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/r2.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/r2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/show-landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.01677e+06,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/show-landscape.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/show-landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/images\/show-portrait.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.00619e+06,
+		"inputAbbreviatedPath": "\/accedo-test\/images\/show-portrait.png",
+		"outputAbbreviatedPath": "\/accedo-test\/images\/show-portrait.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/accedo-test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/accedo-test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/accedo-test\/stylesheets\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/accedo-test\/stylesheets\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/favicon-128.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -78,6 +261,73 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/quizzone\/assets\/FB-f-Logo__blue_58.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1438,
+		"inputAbbreviatedPath": "\/quizzone\/assets\/FB-f-Logo__blue_58.png",
+		"outputAbbreviatedPath": "\/quizzone\/assets\/FB-f-Logo__blue_58.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/quizzone\/assets\/qz_small-14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14073,
+		"inputAbbreviatedPath": "\/quizzone\/assets\/qz_small-14.png",
+		"outputAbbreviatedPath": "\/quizzone\/assets\/qz_small-14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/quizzone\/assets\/YouTube-social-square-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22388,
+		"inputAbbreviatedPath": "\/quizzone\/assets\/YouTube-social-square-red.png",
+		"outputAbbreviatedPath": "\/quizzone\/assets\/YouTube-social-square-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/quizzone\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quizzone\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quizzone\/stylesheets\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quizzone\/stylesheets\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quizzone\/stylesheets\/styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quizzone\/stylesheets\/styles.scss",
+		"outputAbbreviatedPath": "\/quizzone\/stylesheets\/styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/styles.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -106,7 +356,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Gyorgy Bokros",
+"lastSavedByUser": "Bokros György",
 "manualImportLinks": {
 	},
 "projectAttributes": {
