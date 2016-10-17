@@ -126,10 +126,11 @@ body {
   .logo-qz {
     background-image: url('../assets/qz_small-14.png');
     background-position: center;
-    $logo-size: 238px;
-    width: $logo-size;
-    height: 66px;
-    background-size: $logo-size 66px;
+    $logo-width: 316px;
+    $logo-height: 88px;
+    width: $logo-width;
+    height: $logo-height;
+    background-size: $logo-width $logo-height;
     margin: 40px 0 40px 40px;
   }
 

@@ -78,9 +78,9 @@ body {
   .mainHeader .logo-qz {
     background-image: url("../assets/qz_small-14.png");
     background-position: center;
-    width: 238px;
-    height: 66px;
-    background-size: 238px 66px;
+    width: 316px;
+    height: 88px;
+    background-size: 316px 88px;
     margin: 40px 0 40px 40px; }
   .mainHeader #mainMenu {
     margin: 0;
