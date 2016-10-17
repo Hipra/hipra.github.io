@@ -9,8 +9,22 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 8px 0;
+  padding: 14px 0;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15); }
+
+#topLogo {
+  background-image: url("../assets/qz_small-14.png");
+  background-size: 120px 33px;
+  width: 120px;
+  height: 33px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  opacity: 0;
+  transition: opacity 0.2s linear; }
+  #topLogo.show {
+    opacity: 1;
+    transition: opacity 0.2s linear; }
 
 .content-wrapper {
   margin: 0 auto;
@@ -46,8 +60,8 @@ body {
   margin: 0;
   display: flex;
   position: absolute;
-  top: 4px;
-  right: 4px; }
+  top: 10px;
+  right: 10px; }
   .social li {
     list-style-type: none; }
   .social .social-icons {
@@ -64,7 +78,7 @@ body {
 .logo-qz {
   background-image: url("../assets/qz_small-14.png");
   background-position: center;
-  width: 400px;
-  height: 200px;
-  background-size: 400px;
-  margin: 40px auto 0; }
+  width: 396px;
+  height: 110px;
+  background-size: 396px 110px;
+  margin: 80px auto 0; }

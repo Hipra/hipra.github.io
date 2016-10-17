@@ -9,6 +9,7 @@
 	</head>
 	<body>
 		<div class="header">
+			<div id="topLogo"></div>
 			<ul class="topMenu">
 				<li>
 					<a href="#">Főoldal</a>
@@ -33,5 +34,17 @@
 			<div class="logo-qz"></div>
 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		</div>
+
+		<script>
+			window.onscroll = function() {myFunction()};
+
+			function myFunction() {
+				if (document.body.scrollTop > 140 || document.documentElement.scrollTop > 140) {
+					document.getElementById("topLogo").className = "show";
+				} else {
+					document.getElementById("topLogo").className = "";
+				}
+			}
+		</script>
 	</body>
 </html>
