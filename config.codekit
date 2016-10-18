@@ -270,6 +270,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/quizzone\/assets\/bianka-keresztes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111197,
+		"inputAbbreviatedPath": "\/quizzone\/assets\/bianka-keresztes.png",
+		"outputAbbreviatedPath": "\/quizzone\/assets\/bianka-keresztes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/quizzone\/assets\/FB-f-Logo__blue_58.png": {
 		"fileType": 32768,
 		"ignore": 0,

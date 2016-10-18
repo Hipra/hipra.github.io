@@ -1,11 +1,12 @@
 $mobile-width: 768px;
 $desktop-width: 1024px;
 
-$color-black: #111111;
+$color-black: #222222;
 $color-smoke: #f1f1f1;
 $color-darkgray: #333333;
 $color-white: #ffffff;
 $color-brand: #f8901f;
+$color-creme: #f1efed;
 
 @mixin mobile {
   @media (max-width: #{$mobile-width - 1px}) {
@@ -24,6 +25,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  background-color: $color-creme;
 }
 
 #header {
@@ -73,7 +75,7 @@ body {
     position: relative;
 
     a {
-      color: $color-darkgray;
+      color: $color-black;
       text-decoration: none;
       font-size: 16px;
 
@@ -180,6 +182,36 @@ body {
         }
       }
     }
+  }
+}
 
+.mainWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 300;
+  color: $color-brand;
+  margin: 40px 0 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.avatar {
+  $image-size: 180px;
+  width: $image-size;
+  height: $image-size;
+  border-radius: $image-size;
+
+  &-bianka {
+    background-image: url('../assets/bianka-keresztes.png');
+    background-size: $image-size;
+    background-position: center;
   }
 }

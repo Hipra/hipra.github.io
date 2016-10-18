@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background-color: #f1efed; }
 
 #header {
   background-color: #f1f1f1;
@@ -41,7 +42,7 @@ body {
     margin: 0 20px;
     position: relative; }
     .topMenu li a {
-      color: #333333;
+      color: #222222;
       text-decoration: none;
       font-size: 16px; }
       .topMenu li a:hover {
@@ -90,7 +91,7 @@ body {
       font-size: 20px;
       margin: 0 16px; }
       .mainHeader #mainMenu li a {
-        color: #111111;
+        color: #222222;
         text-decoration: none; }
         .mainHeader #mainMenu li a:hover {
           color: #f8901f; }
@@ -112,3 +113,27 @@ body {
           margin-right: 10px; }
         .mainHeader #mainMenu .mainSocial .social-icons.youtube {
           background-image: url("../assets/YouTube-social-square-red.png"); }
+
+.mainWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px; }
+
+h2 {
+  font-size: 46px;
+  font-weight: 300;
+  color: #f8901f;
+  margin: 40px 0 0; }
+
+p {
+  font-size: 16px;
+  line-height: 26px; }
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 180px; }
+  .avatar-bianka {
+    background-image: url("../assets/bianka-keresztes.png");
+    background-size: 180px;
+    background-position: center; }
