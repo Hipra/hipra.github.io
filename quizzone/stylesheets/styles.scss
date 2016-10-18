@@ -105,7 +105,7 @@ body {
 
     &.facebook {
       background-image: url('../assets/FB-f-Logo__blue_58.png');
-      margin-right: 6px;
+      margin: 0 6px;
     }
 
     &.youtube {
@@ -154,34 +154,53 @@ body {
         }
       }
     }
+  }
+}
 
-    .mainSocial {
-      margin: 0;
-      display: flex;
-      position: absolute;
-      right: 40px;
+.mainSocial {
+  margin: 0;
+  display: flex;
+  position: absolute;
+  right: 40px;
 
-      li {
-        list-style-type: none;
-        margin: 0;
-      }
+  li {
+    list-style-type: none;
+    margin: 0;
+  }
 
-      .social-icons {
-        display: block;
-        background-size: 29px;
-        width: 29px;
-        height: 29px;
+  .social-icons {
+    display: block;
+    background-size: 29px;
+    width: 29px;
+    height: 29px;
 
-        &.facebook {
-          background-image: url('../assets/FB-f-Logo__blue_58.png');
-          margin-right: 10px;
-        }
-
-        &.youtube {
-          background-image: url('../assets/YouTube-social-square-red.png');
-        }
-      }
+    &.facebook {
+      background-image: url('../assets/FB-f-Logo__blue_58.png');
+      margin: 0 6px;
     }
+
+    &.youtube {
+      background-image: url('../assets/YouTube-social-square-red.png');
+    }
+  }
+}
+
+.button {
+  background-color: $color-brand;
+  border-radius: 2px;
+  height: 29px;
+  display: inline-block;
+  line-height: 29px;
+  padding: 0 8px;
+  color: $color-white;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background-color: darken($color-brand, 10);
+    transition: all 0.2s linear;
   }
 }
 
