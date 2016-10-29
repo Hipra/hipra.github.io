@@ -3,7 +3,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  background-color: #f1efed; }
+  background-color: #f1efed;
+  color: #222222; }
 
 #header {
   background-color: #f1f1f1;
@@ -146,11 +147,47 @@ p {
   font-size: 16px;
   line-height: 26px; }
 
-.avatar {
-  width: 180px;
-  height: 180px;
-  border-radius: 180px; }
-  .avatar-bianka {
-    background-image: url("../assets/bianka-keresztes.png");
-    background-size: 180px;
-    background-position: center; }
+.crew {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between; }
+  .crew .crew--member {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 26px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); }
+    .crew .crew--member:first-child {
+      margin-right: 16px; }
+    .crew .crew--member:last-child {
+      margin-left: 16px; }
+    .crew .crew--member p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #333333; }
+    .crew .crew--member .member {
+      width: 160px;
+      height: 160px;
+      background-position: center;
+      background-size: 160px;
+      border-radius: 160px;
+      margin: 0 auto; }
+      .crew .crew--member .member.keresztes-bianka {
+        background-image: url("../assets/bianka-keresztes.png"); }
+      .crew .crew--member .member.tiba-imre {
+        background-image: url("../assets/tiba-imre.jpg"); }
+      .crew .crew--member .member.sarkany-vivien {
+        background-image: url("../assets/sarkany-vivien.jpg"); }
+      .crew .crew--member .member.bero-zsolt {
+        background-image: url("../assets/bero-zsolt.png"); }
+    .crew .crew--member h3 {
+      font-weight: 300;
+      color: #f8901f;
+      font-size: 28px;
+      display: inline-block;
+      margin: 20px 0 0; }
+    .crew .crew--member h4 {
+      margin: 0;
+      color: #222222;
+      font-weight: 400; }

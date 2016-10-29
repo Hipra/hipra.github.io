@@ -7,6 +7,8 @@ $color-darkgray: #333333;
 $color-white: #ffffff;
 $color-brand: #f8901f;
 $color-creme: #f1efed;
+$color-blue: #4ec3ff;
+$color-light-orange: #F8B91F;
 
 @mixin mobile {
   @media (max-width: #{$mobile-width - 1px}) {
@@ -26,6 +28,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   background-color: $color-creme;
+  color: $color-black;
 }
 
 #header {
@@ -222,15 +225,64 @@ p {
   line-height: 26px;
 }
 
-.avatar {
-  $image-size: 180px;
-  width: $image-size;
-  height: $image-size;
-  border-radius: $image-size;
+.crew {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 
-  &-bianka {
-    background-image: url('../assets/bianka-keresztes.png');
-    background-size: $image-size;
-    background-position: center;
+  .crew--member {
+    $avatar-size: 160px;
+    $gap: 16px;
+    width: 50%;
+    text-align: center;
+    background-color: transparentize($color-white, 0.4);
+    padding: 26px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+
+    &:first-child {
+      margin-right: $gap;
+    }
+
+    &:last-child {
+      margin-left: $gap;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-darkgray;
+    }
+
+    .member {
+      width: $avatar-size;
+      height: $avatar-size;
+      background-position: center;
+      background-size: $avatar-size;
+      border-radius: $avatar-size;
+      margin: 0 auto;
+
+      &.keresztes-bianka { background-image: url('../assets/bianka-keresztes.png'); }
+
+      &.tiba-imre { background-image: url('../assets/tiba-imre.jpg'); }
+
+      &.sarkany-vivien { background-image: url('../assets/sarkany-vivien.jpg'); }
+
+      &.bero-zsolt { background-image: url('../assets/bero-zsolt.png'); }
+    }
+
+    h3 {
+      font-weight: 300;
+      color: $color-brand;
+      font-size: 28px;
+      display: inline-block;
+      margin: 20px 0 0;
+    }
+
+    h4 {
+      margin: 0;
+      color: $color-black;
+      font-weight: 400;
+    }
   }
 }
