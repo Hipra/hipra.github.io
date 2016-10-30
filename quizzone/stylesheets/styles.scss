@@ -43,6 +43,7 @@ body {
   &.show {
     opacity: 1;
     transition: opacity 0.2s linear;
+    z-index: 1;
   }
 
 }
@@ -317,5 +318,25 @@ p {
     position: absolute;
     top: 0;
     right: 0;
+  }
+}
+
+.footer {
+  background-color: $color-black;
+  height: 60px;
+  line-height: 60px;
+  color: transparentize($color-white, 0.4);
+  text-align: center;
+  font-size: 14px;
+  margin-top: 100px;
+
+  a {
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  span {
+    display: inline-block;
+    margin: 0 32px;
   }
 }
