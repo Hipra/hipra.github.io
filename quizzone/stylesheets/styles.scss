@@ -57,6 +57,21 @@ body {
   left: 10px;
 }
 
+.introductionWrapper {
+  background-color: transparentize($color-white, 0.4);
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.05);
+}
+
+.introduction {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
 .content-wrapper {
 
   @include mobile {
@@ -284,5 +299,23 @@ p {
       color: $color-black;
       font-weight: 400;
     }
+  }
+}
+
+.miertmiWrapper {
+  position: relative;
+
+  p {
+    width: 488px;
+  }
+
+  .fullWidth {
+    width: 800px;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }

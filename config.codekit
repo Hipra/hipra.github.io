@@ -325,6 +325,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/quizzone\/assets\/image-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114164,
+		"inputAbbreviatedPath": "\/quizzone\/assets\/image-1.png",
+		"outputAbbreviatedPath": "\/quizzone\/assets\/image-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/quizzone\/assets\/qz_small-14.png": {
 		"fileType": 32768,
 		"ignore": 0,

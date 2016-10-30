@@ -27,6 +27,17 @@ body {
   top: 8px;
   left: 10px; }
 
+.introductionWrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.05); }
+
+.introduction {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px; }
+  .introduction h2 {
+    margin-top: 0; }
+
 .content-wrapper {
   margin: 0 auto;
   width: 960px; }
@@ -191,3 +202,14 @@ p {
       margin: 0;
       color: #222222;
       font-weight: 400; }
+
+.miertmiWrapper {
+  position: relative; }
+  .miertmiWrapper p {
+    width: 488px; }
+  .miertmiWrapper .fullWidth {
+    width: 800px; }
+  .miertmiWrapper img {
+    position: absolute;
+    top: 0;
+    right: 0; }
