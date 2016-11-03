@@ -109,6 +109,10 @@ body {
       .mainHeader #mainMenu li a {
         color: #222222;
         text-decoration: none; }
+        .mainHeader #mainMenu li a.active {
+          color: rgba(34, 34, 34, 0.4); }
+          .mainHeader #mainMenu li a.active:hover {
+            color: rgba(34, 34, 34, 0.4); }
         .mainHeader #mainMenu li a:hover {
           color: #f8901f; }
 
