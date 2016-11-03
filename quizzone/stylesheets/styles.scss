@@ -22,6 +22,10 @@ $color-light-orange: #F8B91F;
   }
 }
 
+li {
+  line-height: 32px;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -239,6 +243,11 @@ h2 {
 p {
   font-size: 16px;
   line-height: 26px;
+
+  a {
+    color: $color-brand;
+    text-decoration: none;
+  }
 }
 
 .crew {
@@ -338,5 +347,30 @@ p {
   span {
     display: inline-block;
     margin: 0 32px;
+  }
+}
+
+.white-bg {
+  background-color: transparentize($color-white, 0.4);
+  padding: 10px 26px;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+
+  td {
+    padding: 6px 0;
+  }
+
+  &.arak-emphasized {
+    font-size: 24px;
+  }
+
+  .emphasized {
+    font-weight: 700;
+    color: $color-brand;
   }
 }
