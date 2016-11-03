@@ -366,7 +366,7 @@ table {
   }
 
   &.arak-emphasized {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .emphasized {
@@ -374,7 +374,8 @@ table {
     color: $color-brand;
   }
 
-  &.emphasized-2 {
+  &.emphasized-2,
+  .emphasized-2 {
     font-weight: 700;
 
     td:last-child {
@@ -387,4 +388,8 @@ table {
     border-bottom: solid 1px transparentize($color-black, 0.8);
     padding: 10px 0;
   }
+}
+
+.decent {
+  color: transparentize($color-black, 0.5);
 }
