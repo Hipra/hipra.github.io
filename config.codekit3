@@ -306,6 +306,62 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/quizzone\/assets\/logos\/logo-arkon.png": {
+		"ft": 32768,
+		"iS": 7876,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-arkon.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/quizzone\/assets\/logos\/logo-dmsone.png": {
+		"ft": 32768,
+		"iS": 5711,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-dmsone.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/quizzone\/assets\/logos\/logo-erstealapkezelo.png": {
+		"ft": 32768,
+		"iS": 8373,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-erstealapkezelo.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/quizzone\/assets\/logos\/logo-erstebank.png": {
+		"ft": 32768,
+		"iS": 5995,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-erstebank.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/quizzone\/assets\/logos\/logo-generali.png": {
+		"ft": 32768,
+		"iS": 11112,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-generali.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/quizzone\/assets\/logos\/logo-lux.png": {
+		"ft": 32768,
+		"iS": 7314,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-lux.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/quizzone\/assets\/logos\/logo-nng.png": {
+		"ft": 32768,
+		"iS": 5697,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-nng.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/quizzone\/assets\/qz_small-14.png": {
 		"ft": 32768,
 		"iS": 29806,

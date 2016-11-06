@@ -229,14 +229,48 @@ p {
     top: 0;
     right: 0; }
 
+.references {
+  margin-top: 100px;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around; }
+  .references .reference {
+    height: 50px;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%;
+    background-size: 80%; }
+    .references .reference.ref-arkon {
+      background-image: url("../assets/logos/logo-arkon.png");
+      width: 157px; }
+    .references .reference.ref-dmsone {
+      background-image: url("../assets/logos/logo-dmsone.png");
+      width: 309px; }
+    .references .reference.ref-erstealapkezelo {
+      background-image: url("../assets/logos/logo-erstealapkezelo.png");
+      width: 123px; }
+    .references .reference.ref-erstebank {
+      background-image: url("../assets/logos/logo-erstebank.png");
+      width: 182px; }
+    .references .reference.ref-generali {
+      background-image: url("../assets/logos/logo-generali.png");
+      width: 168px; }
+    .references .reference.ref-lux {
+      background-image: url("../assets/logos/logo-lux.png");
+      width: 81px; }
+    .references .reference.ref-nng {
+      background-image: url("../assets/logos/logo-nng.png");
+      width: 105px; }
+
 .footer {
   background-color: #222222;
   height: 60px;
   line-height: 60px;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
-  font-size: 14px;
-  margin-top: 100px; }
+  font-size: 14px; }
   .footer a {
     color: #ffffff;
     text-decoration: none; }
