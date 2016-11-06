@@ -258,6 +258,30 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/quizzone\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 6094,
+		"oA": 0,
+		"oAP": "\/quizzone\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 2664,
+		"oA": 0,
+		"oAP": "\/quizzone\/android-chrome-256x256.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 5711,
+		"oA": 0,
+		"oAP": "\/quizzone\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/quizzone\/assets\/bero-zsolt.png": {
 		"ft": 32768,
 		"iS": 82589,
@@ -394,10 +418,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/quizzone\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/quizzone\/browserconfig.xml",
+		"oF": 0
+		},
 	"\/quizzone\/cegeknek-megrendeloknek.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/quizzone\/cegeknek-megrendeloknek.html",
+		"oF": 0
+		},
+	"\/quizzone\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 767,
+		"oA": 0,
+		"oAP": "\/quizzone\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1060,
+		"oA": 0,
+		"oAP": "\/quizzone\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/quizzone\/favicon.ico",
 		"oF": 0
 		},
 	"\/quizzone\/index.html": {
@@ -405,6 +457,32 @@
 		"oA": 0,
 		"oAP": "\/quizzone\/index.html",
 		"oF": 0
+		},
+	"\/quizzone\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/quizzone\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/quizzone\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4657,
+		"oA": 0,
+		"oAP": "\/quizzone\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/quizzone\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/quizzone\/stylesheets\/.sass-cache\/7fd06869d8001a97acd4d6afba81f886a9cf0f86\/styles.scssc": {
 		"ft": 8192,
