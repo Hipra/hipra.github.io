@@ -67,11 +67,12 @@ body {
   top: 100px;
   width: 162px;
   height: 51px;
+  z-index: 1;
 }
 
 #editors-id {
-  width: 152px;
-  height: 43px;
+  width: 140px;
+  height: 31px;
   background-color: #ffffff;
   background-image: url('../images/editors.png');
   background-repeat: no-repeat;
@@ -82,6 +83,7 @@ body {
   top: 88px;
   opacity: 0;
   transition: opacity 0.2s linear;
+  padding: 6px;
 
   &.show {
     opacity: 0.6;
@@ -93,5 +95,35 @@ body {
       box-shadow: 0 6px 14px 0 rgba(0,0,0,0.20);
     }
   }
+}
 
+.avatar-links {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 2px;
+  position: relative;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .popup {
+      opacity: 1;
+    }
+  }
+
+  .popup {
+    background-image: url('../images/popup.png');
+    width: 73px;
+    height: 29px;
+    position: absolute;
+    top: -33px;
+    left: -22px;
+    z-index: 3;
+    opacity: 0;
+  }
 }
