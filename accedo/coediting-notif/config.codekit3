@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "C38EFE4C-E9B8-4A99-A9BB-5216C03792B0"
+		"uuidString": "AC121952-EC42-412F-A63E-5D20337DE279"
 		}
 	],
 "creatorBuild": "25444",
@@ -19,11 +19,11 @@
 		},
 	"\/images\/content.png": {
 		"ft": 32768,
-		"iS": 133071,
+		"iS": 104456,
 		"oA": 0,
 		"oAP": "\/images\/content.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/images\/editors-sm.png": {
 		"ft": 32768,
@@ -35,11 +35,11 @@
 		},
 	"\/images\/editors.png": {
 		"ft": 32768,
-		"iS": 9222,
+		"iS": 6232,
 		"oA": 0,
 		"oAP": "\/images\/editors.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/images\/header.png": {
 		"ft": 32768,
@@ -48,6 +48,22 @@
 		"oAP": "\/images\/header.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/images\/overlay.png": {
+		"ft": 32768,
+		"iS": 56425,
+		"oA": 0,
+		"oAP": "\/images\/overlay.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/images\/popup-two-more.png": {
+		"ft": 32768,
+		"iS": 1718,
+		"oA": 0,
+		"oAP": "\/images\/popup-two-more.png",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/images\/popup.png": {
 		"ft": 32768,
@@ -100,10 +116,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 501414039,
-	"displayValue": "Co-editing Notifications",
+	"creationDate": 501494928,
+	"displayValue": "Co-editing final",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confession"
+	"iconImageName": "meme-ariel"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
