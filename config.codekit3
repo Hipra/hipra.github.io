@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25428",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/accedo-test\/images\/1.png": {
 		"ft": 32768,
 		"iS": 703471,
@@ -144,6 +150,184 @@
 		"oAP": "\/accedo-test\/stylesheets\/styles-ck.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/accedo\/coediting-notif-alt\/images\/breadcrumb.png": {
+		"ft": 32768,
+		"iS": 20796,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif-alt\/images\/breadcrumb.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif-alt\/images\/content.png": {
+		"ft": 32768,
+		"iS": 104456,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif-alt\/images\/content.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif-alt\/images\/editors-sm.png": {
+		"ft": 32768,
+		"iS": 6635,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif-alt\/images\/editors-sm.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif-alt\/images\/editors.png": {
+		"ft": 32768,
+		"iS": 9222,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif-alt\/images\/editors.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif-alt\/images\/header.png": {
+		"ft": 32768,
+		"iS": 21885,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif-alt\/images\/header.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif-alt\/images\/sidebar.png": {
+		"ft": 32768,
+		"iS": 37828,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif-alt\/images\/sidebar.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif-alt\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/coediting-notif-alt\/index.html",
+		"oF": 0
+		},
+	"\/accedo\/coediting-notif-alt\/stylesheets\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/accedo\/coediting-notif-alt\/stylesheets\/styles-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/accedo\/coediting-notif-alt\/stylesheets\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif-alt\/stylesheets\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/accedo\/coediting-notif\/images\/breadcrumb.png": {
+		"ft": 32768,
+		"iS": 20796,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/breadcrumb.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/content.png": {
+		"ft": 32768,
+		"iS": 104456,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/content.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/editors-sm.png": {
+		"ft": 32768,
+		"iS": 6635,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/editors-sm.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/editors.png": {
+		"ft": 32768,
+		"iS": 6232,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/editors.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/header.png": {
+		"ft": 32768,
+		"iS": 21885,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/header.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/overlay.png": {
+		"ft": 32768,
+		"iS": 41926,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/overlay.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/popup-two-more.png": {
+		"ft": 32768,
+		"iS": 912,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/popup-two-more.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/popup.png": {
+		"ft": 32768,
+		"iS": 1404,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/popup.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/images\/sidebar.png": {
+		"ft": 32768,
+		"iS": 37828,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/images\/sidebar.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/coediting-notif\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/coediting-notif\/index.html",
+		"oF": 0
+		},
+	"\/accedo\/coediting-notif\/stylesheets\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/accedo\/coediting-notif\/stylesheets\/styles-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/accedo\/coediting-notif\/stylesheets\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/accedo\/coediting-notif\/stylesheets\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/CNAME": {
 		"ft": 8192,
@@ -330,62 +514,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/quizzone\/assets\/logos\/logo-arkon.png": {
-		"ft": 32768,
-		"iS": 7876,
-		"oA": 0,
-		"oAP": "\/quizzone\/assets\/logos\/logo-arkon.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/quizzone\/assets\/logos\/logo-dmsone.png": {
-		"ft": 32768,
-		"iS": 5711,
-		"oA": 0,
-		"oAP": "\/quizzone\/assets\/logos\/logo-dmsone.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/quizzone\/assets\/logos\/logo-erstealapkezelo.png": {
-		"ft": 32768,
-		"iS": 8373,
-		"oA": 0,
-		"oAP": "\/quizzone\/assets\/logos\/logo-erstealapkezelo.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/quizzone\/assets\/logos\/logo-erstebank.png": {
-		"ft": 32768,
-		"iS": 5995,
-		"oA": 0,
-		"oAP": "\/quizzone\/assets\/logos\/logo-erstebank.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/quizzone\/assets\/logos\/logo-generali.png": {
-		"ft": 32768,
-		"iS": 11112,
-		"oA": 0,
-		"oAP": "\/quizzone\/assets\/logos\/logo-generali.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/quizzone\/assets\/logos\/logo-lux.png": {
-		"ft": 32768,
-		"iS": 7314,
-		"oA": 0,
-		"oAP": "\/quizzone\/assets\/logos\/logo-lux.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/quizzone\/assets\/logos\/logo-nng.png": {
-		"ft": 32768,
-		"iS": 5697,
-		"oA": 0,
-		"oAP": "\/quizzone\/assets\/logos\/logo-nng.png",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/quizzone\/assets\/qz_small-14.png": {
 		"ft": 32768,
 		"iS": 29806,
@@ -452,12 +580,6 @@
 		"oAP": "\/quizzone\/favicon.ico",
 		"oF": 0
 		},
-	"\/quizzone\/index.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/quizzone\/index.html",
-		"oF": 0
-		},
 	"\/quizzone\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -489,29 +611,6 @@
 		"oA": 2,
 		"oAP": "\/quizzone\/stylesheets\/.sass-cache\/7fd06869d8001a97acd4d6afba81f886a9cf0f86\/styles.scssc",
 		"oF": 0
-		},
-	"\/quizzone\/stylesheets\/styles.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/quizzone\/stylesheets\/styles-ck.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/quizzone\/stylesheets\/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/quizzone\/stylesheets\/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/stylesheets\/.sass-cache\/10c5f39a7ea6bd4d891fb6af72ba54a9513635e0\/styles.scssc": {
 		"ft": 8192,
