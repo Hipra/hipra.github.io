@@ -151,6 +151,83 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/accedo\/appgrid-login\/images\/bg-image.jpg": {
+		"ft": 16384,
+		"iS": 80908,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/images\/bg-image.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/appgrid-login\/images\/logo-accedo.png": {
+		"ft": 32768,
+		"iS": 2685,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/images\/logo-accedo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login\/images\/logo-accedo@2x.png": {
+		"ft": 32768,
+		"iS": 7626,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/images\/logo-accedo@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login\/images\/logo-appgrid-green.png": {
+		"ft": 32768,
+		"iS": 9962,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/images\/logo-appgrid-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login\/images\/logo-appgrid-green@1x.png": {
+		"ft": 32768,
+		"iS": 9962,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/images\/logo-appgrid-green@1x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login\/images\/logo-appgrid-green@2x.png": {
+		"ft": 32768,
+		"iS": 24269,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/images\/logo-appgrid-green@2x.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/accedo\/appgrid-login\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login\/index.html",
+		"oF": 0
+		},
+	"\/accedo\/appgrid-login\/stylesheets\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login\/stylesheets\/styles-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/accedo\/appgrid-login\/stylesheets\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/stylesheets\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/accedo\/coediting-notif-alt\/images\/breadcrumb.png": {
 		"ft": 32768,
 		"iS": 20796,
@@ -514,6 +591,62 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/quizzone\/assets\/logos\/logo-arkon.png": {
+		"ft": 32768,
+		"iS": 20344,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-arkon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/assets\/logos\/logo-dmsone.png": {
+		"ft": 32768,
+		"iS": 18862,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-dmsone.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/assets\/logos\/logo-erstealapkezelo.png": {
+		"ft": 32768,
+		"iS": 20537,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-erstealapkezelo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/assets\/logos\/logo-erstebank.png": {
+		"ft": 32768,
+		"iS": 19709,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-erstebank.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/assets\/logos\/logo-generali.png": {
+		"ft": 32768,
+		"iS": 22672,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-generali.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/assets\/logos\/logo-lux.png": {
+		"ft": 32768,
+		"iS": 19734,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-lux.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/quizzone\/assets\/logos\/logo-nng.png": {
+		"ft": 32768,
+		"iS": 18692,
+		"oA": 0,
+		"oAP": "\/quizzone\/assets\/logos\/logo-nng.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/quizzone\/assets\/qz_small-14.png": {
 		"ft": 32768,
 		"iS": 29806,
@@ -580,6 +713,12 @@
 		"oAP": "\/quizzone\/favicon.ico",
 		"oF": 0
 		},
+	"\/quizzone\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/quizzone\/index.html",
+		"oF": 0
+		},
 	"\/quizzone\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -611,6 +750,29 @@
 		"oA": 2,
 		"oAP": "\/quizzone\/stylesheets\/.sass-cache\/7fd06869d8001a97acd4d6afba81f886a9cf0f86\/styles.scssc",
 		"oF": 0
+		},
+	"\/quizzone\/stylesheets\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/quizzone\/stylesheets\/styles-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/quizzone\/stylesheets\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/quizzone\/stylesheets\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/stylesheets\/.sass-cache\/10c5f39a7ea6bd4d891fb6af72ba54a9513635e0\/styles.scssc": {
 		"ft": 8192,

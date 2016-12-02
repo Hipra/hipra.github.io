@@ -1,0 +1,314 @@
+$desktop: 1024px;
+$desktop-hd: 1360px;
+
+$color-white:       #ffffff;
+$color-smoke:       #fafafa;
+$color-green:       #7fa41b;
+$color-lightgrey:   #aaaaaa;
+$color-grey:        #777777;
+$color-black:       #333333;
+
+$transition: all 0.1s linear;
+
+@mixin desktop {
+  @media (max-width: #{$desktop-hd} - 1) {
+    @content;
+  }
+}
+
+@mixin desktop-hd {
+  @media (min-width: #{$desktop-hd}) {
+    @content;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi){
+    .logo-appgrid {
+        background-image: url('../images/logo-appgrid-green@2x.png');
+    }
+
+    .logo-accedo {
+      background-image: url('../images/logo-accedo@2x.png');
+    }
+}
+
+body {
+  margin: 0;
+  background-color: $color-smoke;
+  font-family: 'Open Sans', helvetica, sans-serif;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+
+  @include desktop {
+    width: 960px;
+    margin: 40px auto 0;
+    background-image: url('../images/bg-image.jpg');
+    background-size: cover;
+    height: 580px;
+    align-items: center;
+  }
+
+  @include desktop-hd {
+    width: 1280px;
+    margin: 40px auto 0;
+    height: 580px;
+    background-image: url('../images/bg-image.jpg');
+    background-size: cover;
+    align-items: center;
+  }
+
+  @include desktop {
+    height: 460px;
+  }
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  margin: 16px auto 0;
+
+  @include desktop {
+    width: 960px;
+  }
+
+  @include desktop-hd {
+    width: 1280px;
+  }
+}
+
+.content-wrapper {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  margin: 0 60px;
+  -webkit-font-smoothing: antialiased;
+
+  @include desktop {
+    margin: 0 40px;
+  }
+}
+
+.logo-appgrid {
+  width: 204px;
+  height: 51px;
+  background-image: url('../images/logo-appgrid-green.png');
+  background-size: 204px 51px;
+
+}
+
+.content-left {
+  width: 620px;
+  margin-right: 40px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.30);
+  color: $color-white;
+
+  @include desktop {
+    width: 520px;
+    margin-right: 20px;
+  }
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 58px;
+  margin: 20px 0 0;
+
+  @include desktop {
+    font-size: 34px;
+    line-height: 40px;
+    margin: 12px 0 0;
+  }
+}
+
+p,
+h3 {
+  font-size: 18px;
+  line-height: 28px;
+
+  @include desktop {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+p {
+  margin: 24px 0 0;
+
+  @include desktop {
+    margin-top: 16px;
+  }
+}
+
+h3 {
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+a {
+  color: $color-green;
+  text-decoration: none;
+  transition: $transition;
+
+  &:hover {
+    color: lighten($color-green, 10%);
+    transition: $transition;
+  }
+}
+
+.content-right {
+  background-color: $color-white;
+  width: 380px;
+  height: 220px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+  padding: 40px;
+
+  @include desktop {
+    width: 300px;
+    padding: 20px;
+  }
+}
+
+h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+input {
+  height: 42px;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.08);
+  border-radius: 3px;
+  font-size: 15px;
+  color: $color-grey;
+  padding-left: 12px;
+  width: 365px;
+  transition: $transition;
+  outline: none;
+
+  @include desktop {
+    width: 285px;
+  }
+
+  &:first-child { margin-bottom: 6px; }
+
+  &:hover {
+    border-color: $color-green;
+    transition: $transition;
+  }
+
+  &:focus {
+    border-color: $color-green;
+    transition: $transition;
+    color: $color-black;
+  }
+}
+
+.content-right-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.button-login {
+  $button-size: 40px;
+
+  border: 0;
+  border-radius: $button-size;
+  width: 160px;
+  height: $button-size;
+  background-color: $color-green;
+  color: $color-white;
+  line-height: $button-size - 6px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: $transition;
+  outline: none;
+
+  @include desktop {
+    width: 120px;
+    font-size: 16px;
+  }
+
+  &:hover {
+    background-color: darken($color-green, 6%);
+    transition: $transition;
+    cursor: pointer;
+  }
+}
+
+.text-forgot {
+  font-size: 13px;
+  transition: $transition;
+
+  &:hover {
+    color: darken($color-green, 10%);
+    transition: $transition;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 6px;
+    text-align: center;
+    display: inline-block;
+
+    a {
+      color: $color-lightgrey;
+
+      &:hover {
+        color: darken($color-lightgrey, 10%);
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    i {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+    }
+  }
+
+  span {
+    display: inline-block;
+    color: $color-lightgrey;
+    font-size: 12px;
+    position: relative;
+    top: -2px;
+    margin-right: 20px;
+  }
+}
+
+.logo-accedo {
+  display: inline-block;
+  width: 89px;
+  height: 16px;
+  background-size: 89px 16px;
+  background-image: url('../images/logo-accedo.png');
+}
