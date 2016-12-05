@@ -33,6 +33,30 @@ body {
     .page-wrapper {
       height: 460px; } }
 
+.page-wrapper-2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 3px; }
+  @media (max-width: 1359px) {
+    .page-wrapper-2 {
+      width: 960px;
+      margin: 40px auto 0;
+      background-image: url("../images/bg-image-2.jpg");
+      background-size: cover;
+      height: 580px;
+      align-items: center; } }
+  @media (min-width: 1360px) {
+    .page-wrapper-2 {
+      width: 1280px;
+      margin: 40px auto 0;
+      height: 580px;
+      background-image: url("../images/bg-image-2.jpg");
+      background-size: cover;
+      align-items: center; } }
+  @media (max-width: 1359px) {
+    .page-wrapper-2 {
+      height: 460px; } }
+
 .footer {
   display: flex;
   width: 100%;

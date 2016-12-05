@@ -7,7 +7,7 @@
 		"uuidString": "FD403D4D-EFE4-4857-8BBE-4C4485BC9DBD"
 		}
 	],
-"creatorBuild": "25428",
+"creatorBuild": "25444",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -151,6 +151,14 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/accedo\/appgrid-login\/images\/bg-image-2.jpg": {
+		"ft": 16384,
+		"iS": 86544,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login\/images\/bg-image-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/accedo\/appgrid-login\/images\/bg-image.jpg": {
 		"ft": 16384,
 		"iS": 80908,
@@ -198,6 +206,12 @@
 		"oAP": "\/accedo\/appgrid-login\/images\/logo-appgrid-green@2x.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/accedo\/appgrid-login\/index-2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login\/index-2.html",
+		"oF": 0
 		},
 	"\/accedo\/appgrid-login\/index.html": {
 		"ft": 8192,
