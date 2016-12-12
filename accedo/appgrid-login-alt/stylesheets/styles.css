@@ -24,11 +24,35 @@ html {
   align-items: center;
   justify-content: center; }
 
-.wrapper-right {
+.wrapper-right-1 {
   width: 50%;
   height: 100%;
   position: relative;
-  background-image: url("../images/bg-image.jpg");
+  background-image: url("../images/image-1.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.wrapper-right-2 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-image: url("../images/image-2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.wrapper-right-3 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-image: url("../images/image-3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.wrapper-right-4 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-image: url("../images/image-4.jpg");
   background-size: cover;
   background-position: center; }
 

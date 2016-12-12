@@ -9,19 +9,35 @@
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/images\/bg-image-2.jpg": {
+	"\/images\/image-1.jpg": {
 		"ft": 16384,
-		"iS": 86544,
+		"iS": 496905,
 		"oA": 0,
-		"oAP": "\/images\/bg-image-2.jpg",
+		"oAP": "\/images\/image-1.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/images\/bg-image.jpg": {
+	"\/images\/image-2.jpg": {
 		"ft": 16384,
-		"iS": 76210,
+		"iS": 473094,
 		"oA": 0,
-		"oAP": "\/images\/bg-image.jpg",
+		"oAP": "\/images\/image-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/image-3.jpg": {
+		"ft": 16384,
+		"iS": 650721,
+		"oA": 0,
+		"oAP": "\/images\/image-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/image-4.jpg": {
+		"ft": 16384,
+		"iS": 636382,
+		"oA": 0,
+		"oAP": "\/images\/image-4.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -65,11 +81,39 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/index.html": {
+	"\/index-1.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "\/index-1.html",
 		"oF": 0
+		},
+	"\/index-2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-2.html",
+		"oF": 0
+		},
+	"\/index-3.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-3.html",
+		"oF": 0
+		},
+	"\/index-4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-4.html",
+		"oF": 0
+		},
+	"\/stylesheets\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/stylesheets\/styles-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/stylesheets\/styles.scss": {
 		"aP": 0,
