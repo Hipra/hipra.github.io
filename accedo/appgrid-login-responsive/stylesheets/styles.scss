@@ -1,0 +1,297 @@
+body,
+html {
+  background-color: #fafafa;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+$color-white:       #ffffff;
+$color-smoke:       #fafafa;
+$color-green:       #7fa41b;
+$color-lightgreen:  lighten($color-green, 10%);
+$color-lightgrey:   #aaaaaa;
+$color-grey:        #777777;
+$color-black:       #333333;
+
+$transition: all 0.1s linear;
+
+$max-768: 768px;
+$max-1024: 1024px;
+
+@mixin max-768 {
+  @media (max-width: #{$max-768}) {
+    @content;
+  }
+}
+
+@mixin max-1024 {
+  @media (min-width: #{$max-768} + 1) and (max-width: #{$max-1024}) {
+    @content;
+  }
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi){
+  .logo-appgrid {
+    background-image: url('../images/logo-appgrid-green@2x.png');
+  }
+
+  .logo-accedo {
+    background-image: url('../images/logo-accedo@2x.png');
+  }
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 58px;
+  margin: 20px 0 0;
+
+  @include max-1024 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+p,
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+
+  @include max-1024 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+p {
+  margin: 24px 0 0;
+}
+
+h3 {
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+a {
+  color: $color-green;
+  text-decoration: none;
+  transition: $transition;
+
+  &:hover {
+    color: $color-lightgreen;
+    transition: $transition;
+  }
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+// ----- Left Panel ----->
+
+.wrapper-left {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-image: url('../images/bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+
+  @include max-768 {
+    display: none;
+  }
+
+  @include max-1024 {
+    width: 44%;
+  }
+}
+
+.left-content {
+  width: 80%;
+  color: $color-white;
+  margin: 80px 0 0 80px;
+
+  @include max-1024 {
+    margin: 40px 0 0 40px;
+  }
+
+  a {
+    color: $color-lightgreen;
+
+    &:hover {
+      color: lighten($color-lightgreen, 10%);
+    }
+  }
+}
+
+// ----- Right Panel ----->
+
+.wrapper-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include max-768 {
+    width: 100%;
+  }
+
+  @include max-1024 {
+    width: 56%;
+  }
+}
+
+.right-content {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.logo-appgrid {
+  background-image: url('../images/logo-appgrid-green.png');
+  background-size: 190px 44px;
+  width: 190px;
+  height: 44px;
+  margin: 0 auto;
+}
+
+.form-wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 420px;
+  padding: 40px;
+  background-color: $color-white;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: $transition;
+  text-align: center;
+
+  @include max-1024 {
+    width: 340px;
+    padding: 20px;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+    transition: $transition;
+  }
+}
+
+h4 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 0 30px;
+}
+
+input {
+  height: 46px;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.08);
+  border-radius: 3px;
+  font-size: 15px;
+  color: $color-grey;
+  padding-left: 12px;
+  width: 405px;
+  transition: $transition;
+  outline: none;
+
+  @include max-1024 {
+    width: 325px;
+  }
+
+  &:first-child { margin-bottom: 12px; }
+
+  &:hover {
+    border-color: $color-green;
+    transition: $transition;
+  }
+
+  &:focus {
+    border-color: $color-green;
+    transition: $transition;
+    color: $color-black;
+  }
+}
+
+.button-login {
+  $button-size: 40px;
+
+  border: 0;
+  border-radius: $button-size;
+  width: 420px;
+  height: $button-size;
+  background-color: $color-green;
+  color: $color-white;
+  line-height: $button-size - 6px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: $transition;
+  outline: none;
+  margin: 32px auto;
+
+  @include max-1024 {
+    width: 340px;
+  }
+
+  &:hover {
+    background-color: darken($color-green, 6%);
+    transition: $transition;
+    cursor: pointer;
+  }
+}
+
+.form-actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text-forgot {
+  font-size: 16px;
+  transition: $transition;
+
+  &:hover {
+    color: darken($color-green, 10%);
+    transition: $transition;
+  }
+}
+
+// ----- Footer ----->
+
+.logo-accedo {
+  display: inline-block;
+  width: 89px;
+  height: 16px;
+  background-size: 89px 16px;
+  background-image: url('../images/logo-accedo.png');
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+
+  &-left {
+    margin-right: 10px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+
+  span {
+    color: $color-lightgrey;
+    font-size: 13px;
+  }
+}
