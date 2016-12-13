@@ -142,6 +142,10 @@ input {
   width: 80%;
   color: #ffffff;
   margin: 80px 0 0 80px; }
+  .right-content a {
+    color: #a1d022; }
+    .right-content a:hover {
+      color: #b6e045; }
 
 h1 {
   font-weight: 300;
