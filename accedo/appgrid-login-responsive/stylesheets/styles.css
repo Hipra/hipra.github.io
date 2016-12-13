@@ -84,7 +84,8 @@ a {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: column; }
   @media (max-width: 768px) {
     .wrapper-right {
       width: 100%; } }
@@ -93,8 +94,7 @@ a {
       width: 56%; } }
 
 .right-content {
-  position: relative;
-  margin-bottom: 200px; }
+  margin-top: auto; }
 
 .logo-appgrid {
   background-image: url("../images/logo-appgrid-green.png");
@@ -192,10 +192,8 @@ input {
   margin-right: 10px; }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 20px; }
+  margin-top: auto;
+  margin-bottom: 20px; }
   .footer-left {
     margin-right: 10px; }
   .footer ul {
