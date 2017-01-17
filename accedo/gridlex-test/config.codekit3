@@ -4,111 +4,15 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "AB1295AE-778D-4B06-A353-E4A3D8BEE8EA"
+		"uuidString": "2F0459DD-1049-4454-9D9E-5D8A4F42A174"
 		}
 	],
 "creatorBuild": "25479",
 "files": {
-	"\/images\/image-1.jpg": {
-		"ft": 16384,
-		"iS": 496905,
-		"oA": 0,
-		"oAP": "\/images\/image-1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/image-2.jpg": {
-		"ft": 16384,
-		"iS": 473094,
-		"oA": 0,
-		"oAP": "\/images\/image-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/image-3.jpg": {
-		"ft": 16384,
-		"iS": 650721,
-		"oA": 0,
-		"oAP": "\/images\/image-3.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images\/image-4.jpg": {
-		"ft": 16384,
-		"iS": 636382,
-		"oA": 0,
-		"oAP": "\/images\/image-4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/logo-accedo.png": {
-		"ft": 32768,
-		"iS": 2685,
-		"oA": 0,
-		"oAP": "\/images\/logo-accedo.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/logo-accedo@2x.png": {
-		"ft": 32768,
-		"iS": 7626,
-		"oA": 0,
-		"oAP": "\/images\/logo-accedo@2x.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/logo-appgrid-green.png": {
-		"ft": 32768,
-		"iS": 9962,
-		"oA": 0,
-		"oAP": "\/images\/logo-appgrid-green.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/images\/logo-appgrid-green@1x.png": {
-		"ft": 32768,
-		"iS": 9962,
-		"oA": 0,
-		"oAP": "\/images\/logo-appgrid-green@1x.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/images\/logo-appgrid-green@2x.png": {
-		"ft": 32768,
-		"iS": 17381,
-		"oA": 0,
-		"oAP": "\/images\/logo-appgrid-green@2x.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/index-1.1.html": {
+	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index-1.1.html",
-		"oF": 0
-		},
-	"\/index-1.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index-1.html",
-		"oF": 0
-		},
-	"\/index-2.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index-2.html",
-		"oF": 0
-		},
-	"\/index-3.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index-3.html",
-		"oF": 0
-		},
-	"\/index-4.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index-4.html",
+		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/stylesheets\/styles.css": {
@@ -140,10 +44,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 503238532,
-	"displayValue": "appgrid-login-alt",
+	"creationDate": 506341993,
+	"displayValue": "gridlex-test",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-fry"
+	"iconImageName": "meme-gavin"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1353,7 +1257,7 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', 'avoid-escape'"
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
 			"active": 0,
@@ -1365,7 +1269,7 @@
 			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
 			"active": 0,
@@ -2178,7 +2082,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
