@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #f1f1f1;
+}
+
+.screenshot-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1365px;
+  margin: 0 auto;
+}
+
+.screenshot {
+  width: 375px;
+  height: 667px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+}
+
+.s-01 { background-image: url('01.png'); }
+.s-02 { background-image: url('02.png'); }
+.s-03 { background-image: url('03.png'); }
+.s-04 { background-image: url('04.png'); }
+.s-05 { background-image: url('05.png'); }
+.s-06 { background-image: url('06.png'); }
+.s-07 { background-image: url('07.png'); }
+.s-08 { background-image: url('08.png'); }
+.s-09 { background-image: url('09.png'); }

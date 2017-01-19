@@ -7,7 +7,7 @@
 		"uuidString": "FD403D4D-EFE4-4857-8BBE-4C4485BC9DBD"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -151,6 +151,200 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/accedo\/appgrid-login-alt\/images\/image-1.jpg": {
+		"ft": 16384,
+		"iS": 496905,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/image-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/image-2.jpg": {
+		"ft": 16384,
+		"iS": 473094,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/image-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/image-3.jpg": {
+		"ft": 16384,
+		"iS": 478486,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/image-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/image-4.jpg": {
+		"ft": 16384,
+		"iS": 636382,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/image-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/logo-accedo.png": {
+		"ft": 32768,
+		"iS": 2685,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/logo-accedo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/logo-accedo@2x.png": {
+		"ft": 32768,
+		"iS": 7626,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/logo-accedo@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/logo-appgrid-green.png": {
+		"ft": 32768,
+		"iS": 4938,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/logo-appgrid-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/logo-appgrid-green@1x.png": {
+		"ft": 32768,
+		"iS": 9962,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/logo-appgrid-green@1x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/images\/logo-appgrid-green@2x.png": {
+		"ft": 32768,
+		"iS": 10442,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/images\/logo-appgrid-green@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-alt\/index-1.1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-alt\/index-1.1.html",
+		"oF": 0
+		},
+	"\/accedo\/appgrid-login-alt\/index-1.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-alt\/index-1.html",
+		"oF": 0
+		},
+	"\/accedo\/appgrid-login-alt\/index-2.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-alt\/index-2.html",
+		"oF": 0
+		},
+	"\/accedo\/appgrid-login-alt\/index-3.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-alt\/index-3.html",
+		"oF": 0
+		},
+	"\/accedo\/appgrid-login-alt\/index-4.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-alt\/index-4.html",
+		"oF": 0
+		},
+	"\/accedo\/appgrid-login-alt\/stylesheets\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-alt\/stylesheets\/styles-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/accedo\/appgrid-login-alt\/stylesheets\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-alt\/stylesheets\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/accedo\/appgrid-login-responsive\/images\/bg-image.jpg": {
+		"ft": 16384,
+		"iS": 496905,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-responsive\/images\/bg-image.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-responsive\/images\/logo-accedo.png": {
+		"ft": 32768,
+		"iS": 2685,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-responsive\/images\/logo-accedo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-responsive\/images\/logo-accedo@2x.png": {
+		"ft": 32768,
+		"iS": 7626,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-responsive\/images\/logo-accedo@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-responsive\/images\/logo-appgrid-green.png": {
+		"ft": 32768,
+		"iS": 4938,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-responsive\/images\/logo-appgrid-green.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-responsive\/images\/logo-appgrid-green@2x.png": {
+		"ft": 32768,
+		"iS": 10442,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-responsive\/images\/logo-appgrid-green@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/accedo\/appgrid-login-responsive\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-responsive\/index.html",
+		"oF": 0
+		},
+	"\/accedo\/appgrid-login-responsive\/stylesheets\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/accedo\/appgrid-login-responsive\/stylesheets\/styles-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/accedo\/appgrid-login-responsive\/stylesheets\/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/accedo\/appgrid-login-responsive\/stylesheets\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/accedo\/appgrid-login\/images\/bg-image-2.jpg": {
 		"ft": 16384,
 		"iS": 86544,
@@ -188,14 +382,6 @@
 		"iS": 9962,
 		"oA": 0,
 		"oAP": "\/accedo\/appgrid-login\/images\/logo-appgrid-green.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/accedo\/appgrid-login\/images\/logo-appgrid-green@1x.png": {
-		"ft": 32768,
-		"iS": 9962,
-		"oA": 0,
-		"oAP": "\/accedo\/appgrid-login\/images\/logo-appgrid-green@1x.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -436,6 +622,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/gyorgybokros-cv-18062016.pdf",
+		"oF": 0
+		},
+	"\/gyorgybokros-cv-18062016_.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gyorgybokros-cv-18062016_.pdf",
 		"oF": 0
 		},
 	"\/images\/favicon-128.png": {
@@ -1276,6 +1468,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -1439,6 +1635,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -1804,6 +2004,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -2035,6 +2239,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2868,6 +3076,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
