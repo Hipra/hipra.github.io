@@ -14,6 +14,7 @@ body {
   width: 375px;
   height: 667px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-size: 375px 667px;
   margin: 26px;
 }
 
@@ -26,3 +27,7 @@ body {
 .s-07 { background-image: url('07.png'); }
 .s-08 { background-image: url('08.png'); }
 .s-09 { background-image: url('09.png'); }
+.s-10 { background-image: url('10.png'); }
+.s-11 { background-image: url('11.png'); }
+.s-12 { background-image: url('12.png'); }
+.s-13 { background-image: url('13.png'); }
