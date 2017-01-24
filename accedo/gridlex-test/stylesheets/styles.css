@@ -59,3 +59,10 @@ body {
 .col,
 [class*=col-] {
   padding: 0 12px; }
+
+[class*=col-].grid {
+  padding: 0 24px; }
+  [class*=col-].grid [class*=col-]:first-child {
+    padding-left: 0; }
+  [class*=col-].grid [class*=col-]:last-child {
+    padding-right: 0; }

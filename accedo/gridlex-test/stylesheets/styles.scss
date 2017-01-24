@@ -77,3 +77,20 @@ body {
 [class*=col-] {
   padding: 0 12px;
 }
+
+[class*=col-] {
+  &.grid {
+    padding: 0 24px;
+
+    [class*=col-] {
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+  }
+}
