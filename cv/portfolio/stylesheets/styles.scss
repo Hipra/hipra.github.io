@@ -1,0 +1,15 @@
+body {
+  background-color: #f1f1f1;
+}
+
+$image-width: 1152px;
+$image-height: 7399px;
+
+.portfolio-wrapper {
+  width: $image-width;
+  height: $image-height;
+  background-image: url('../portfolio.png');
+  background-size: $image-width $image-height;
+  margin: 80px auto;
+  box-shadow: 0 2px 4px rgba(black, 0.1);
+}
