@@ -140,6 +140,11 @@ h2 {
 
 @media screen and (max-width: 480px) {
 
+  .wrapper {
+    height: auto;
+    top: 60px;
+  }
+
   .movie-image,
   .footer-wrapper:before,
   .footer-wrapper:after { display: none; }
