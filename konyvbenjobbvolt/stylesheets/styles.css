@@ -1,3 +1,10 @@
+html,
+body,
+.movie-image,
+.wrapper {
+  height: 100%;
+}
+
 body {
   margin: 0;
   background-color: #4a0088;
@@ -24,8 +31,9 @@ a {
 .wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  padding: 0 100px;
+  padding: 0 14vw;
   position: absolute;
   top: 0;
 }
@@ -132,12 +140,6 @@ h2 {
 
 @media screen and (max-width: 480px) {
 
-  .wrapper {
-    position: static;
-    padding: 0 20px;
-    margin-top: 60px;
-  }
-
   .movie-image,
   .footer-wrapper:before,
   .footer-wrapper:after { display: none; }
@@ -157,19 +159,5 @@ h2 {
   h3 {
     font-size: 22px;
     margin: 26px 0;
-  }
-}
-
-@media screen and (min-width: 481px) {
-
-  html,
-  body,
-  .movie-image,
-  .wrapper {
-    height: 100%;
-  }
-
-  .wrapper {
-    justify-content: center;
   }
 }
