@@ -14,30 +14,19 @@
 		<div class="wrapper">
 			<h3>Könyvben jobb volt?</h3>
 			<div class="separator-wave"></div>
-			<h1 id="demo"></h1>
+			<h1 id="movieTitle"></h1>
 			<div class="dots"></div>
-			<h2>Igen.</h2>
+			<h2 id="movieAnswer"></h2>
 		</div>
 		<div class="footer-wrapper">
 			<div class="link-box">
-				<a href="#">IMDb</a>
+				<a href="http://www.imdb.com/title/">IMDb</a>
 				<a href="#">Goodreads</a>
 				<a href="#" class="reload"></a>
 			</div>
 		</div>
 
-		<script>
-
-			var myObj, x;
-			myObj = {
-				"image-url": "harry-potter-and-the-prisoner-of-azkaban",
-				"title": "Harry Potter and the Prisoner of Azkaban",
-				"answer": "Igen.",
-				"imdb": "url",
-				"goodreads": "url" };
-				x = myObj.title;
-				document.getElementById("demo").innerHTML = x;
-		</script>
+		<script src="scripts/data.js"></script>
 
 	</body>
 </html>
