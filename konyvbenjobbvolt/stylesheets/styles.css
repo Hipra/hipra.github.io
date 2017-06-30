@@ -1,0 +1,138 @@
+html,
+body,
+.movie-image,
+.wrapper {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #4a0088;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.movie-image {
+  background-blend-mode: soft-light;
+  background-color: #4a0088;
+  filter: blur(4px);
+  z-index: 0;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 14vw;
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  font-family: 'Ranga';
+  font-weight: 400;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  text-align: center;
+  line-height: 1;
+  margin: 4vw 0;
+  color: #ec1e34;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.25);
+}
+
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 26px;
+  letter-spacing: 0.2vw;
+  margin: 0 0 3vw 0;
+}
+
+.separator-wave {
+  width: 64px;
+  height: 10px;
+  background-image: url('../assets/separator-wave.svg');
+}
+
+.dots {
+  width: 532px;
+  height: 44px;
+  background-image: url('../assets/dots.svg');
+}
+
+h2 {
+  font-size: 56px;
+  margin: 3vw 0;
+}
+
+.footer-wrapper {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.link-box {
+  border: solid 4px #fff;
+  padding: 0 20px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.footer-wrapper:before {
+  content: '';
+  height: 4px;
+  display: inline-block;
+  width: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: -174px;
+  top: 33px;
+}
+
+.footer-wrapper:after {
+  content: '';
+  height: 4px;
+  display: inline-block;
+  width: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 33px;
+  right: -174px;
+}
+
+.reload {
+  display: inline-block;
+  width: 46px;
+  height: 60px;
+  background-image: url(../assets/icon-reload.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reload:before {
+  content: '';
+  display: block;
+  width: 4px;
+  background-color: #fff;
+  height: 100%;
+  position: relative;
+  left: -20px;
+}
