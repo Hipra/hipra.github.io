@@ -11,6 +11,7 @@ body {
   color: #fff;
   font-family: 'Montserrat';
   font-weight: 700;
+  text-align: center;
 }
 
 a {
@@ -45,7 +46,7 @@ h1 {
   letter-spacing: 0.2vw;
   text-align: center;
   line-height: 1;
-  margin: 2vw 0;
+  margin: 40px 0;
   color: #ec1e34;
   text-shadow: 0 2px 0 rgba(0,0,0,0.25);
 }
@@ -142,4 +143,14 @@ h2 {
     .movie-image,
     .footer-wrapper:before,
     .footer-wrapper:after { display: none; }
+
+    .dots {
+      width: 252px;
+      height: 44px;
+      background-image: url('../assets/dots-mobile.svg');
+    }
+
+    h1 {
+      font-size: 40px;
+    }
 }
