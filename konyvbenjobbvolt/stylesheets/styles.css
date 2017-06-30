@@ -33,9 +33,9 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 14vw;
   position: absolute;
   top: 0;
+  width: 100%;
 }
 
 h1 {
@@ -49,6 +49,8 @@ h1 {
   margin: 40px 0;
   color: #ec1e34;
   text-shadow: 0 2px 0 rgba(0,0,0,0.25);
+  padding: 0 40px;
+  max-width: 800px;
 }
 
 h2,
@@ -143,7 +145,6 @@ h2 {
   .wrapper {
     height: auto;
     top: 40px;
-    padding: 0 20px;
   }
 
   .movie-image,
@@ -159,6 +160,7 @@ h2 {
   h1 {
     font-size: 40px;
     margin: 26px 0;
+    padding: 0 20px;
   }
 
   h2,
