@@ -1,0 +1,123 @@
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f3f4f6;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.panel-left {
+  width: 50%;
+}
+
+.panel-right {
+  width: 50%;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  overflow-y: auto;
+  min-height: 0;
+  background-position: 0 20%;
+}
+
+.image-2 {
+  background-image: url(images/accedo-one-2.jpg);
+}
+
+.image-3 {
+  background-image: url(images/accedo-one-3.jpg);
+  animation-delay: 5s;
+}
+
+.image-4 {
+  background-image: url(images/accedo-one-4.jpg);
+  animation-delay: 10s;
+}
+
+.image-5 {
+  background-image: url(images/accedo-one-5.jpg);
+  animation-delay: 15s;
+}
+
+.text-3 { animation-delay: 6.6s; }
+
+.text-4 { animation-delay: 11.6s; }
+
+.text-5 { animation-delay: 16.6s; }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.image-3,
+.image-4,
+.image-5 {
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+h1,
+h2 {
+  padding-left: 48px;
+  padding-right: 48px;
+  font-family: 'Roboto';
+  color: #5054b6;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.6vw;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.4vw;
+  line-height: 1.6;
+}
+
+.text-wrapper {
+  width: 100px;
+}
+
+.text {
+  position: absolute;
+}
+
+.text-3,
+.text-4,
+.text-5 {
+  opacity: 0;
+  animation-name: fade-in-text;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
