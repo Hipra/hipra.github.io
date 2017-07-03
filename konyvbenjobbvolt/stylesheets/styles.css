@@ -41,16 +41,21 @@ a {
 h1 {
   font-family: 'Ranga';
   font-weight: 400;
-  font-size: 80px;
+  font-size: 48px;
   text-transform: uppercase;
   letter-spacing: 0.2vw;
   text-align: center;
   line-height: 1;
-  margin: 40px 0;
+  margin-bottom: 20px;
   color: #ec1e34;
   text-shadow: 0 2px 0 rgba(0,0,0,0.25);
   padding: 0 40px;
   max-width: 800px;
+}
+
+h2 {
+  font-size: 80px;
+  margin: 20px 0;
 }
 
 h2,
@@ -58,27 +63,18 @@ h3 {
   text-transform: uppercase;
 }
 
-h3 {
-  font-size: 26px;
-  letter-spacing: 0.2vw;
-  margin: 0 0 40px 0;
-}
-
 .separator-wave {
   width: 64px;
   height: 10px;
   background-image: url('../assets/separator-wave.svg');
+  transform: rotate(90deg);
+  margin-bottom: 40px;
 }
 
 .dots {
   width: 532px;
   height: 44px;
   background-image: url('../assets/dots.svg');
-}
-
-h2 {
-  font-size: 56px;
-  margin: 40px 0;
 }
 
 .footer-wrapper {
@@ -90,13 +86,13 @@ h2 {
 
 .link-box {
   border: solid 4px #fff;
-  padding: 0 20px;
+  padding: 0 16px;
   width: 300px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer-wrapper:before {
@@ -106,8 +102,8 @@ h2 {
   width: 50%;
   background-color: #fff;
   position: absolute;
-  left: -174px;
-  top: 33px;
+  left: -170px;
+  top: 27px;
 }
 
 .footer-wrapper:after {
@@ -117,14 +113,14 @@ h2 {
   width: 50%;
   background-color: #fff;
   position: absolute;
-  top: 33px;
-  right: -174px;
+  top: 27px;
+  right: -170px;
 }
 
 .reload {
   display: inline-block;
-  width: 46px;
-  height: 60px;
+  width: 36px;
+  height: 48px;
   background-image: url(../assets/icon-reload.svg);
   background-repeat: no-repeat;
   background-position: center;
