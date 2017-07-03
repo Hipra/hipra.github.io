@@ -91,12 +91,6 @@ myObj = {
           "URLGoodreads": "#"
       },
       {
-          "title": "",
-          "answer": "Igen.",
-          "URLImdb": "#",
-          "URLGoodreads": "#"
-      },
-      {
           "title": "Jonathan Strange & Mr Norrell",
           "answer": "Igen.",
           "URLImdb": "#",
