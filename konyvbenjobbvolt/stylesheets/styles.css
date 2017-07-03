@@ -89,7 +89,7 @@ h2 {
 .link-box {
   border: solid 4px #fff;
   padding: 0 16px;
-  width: 300px;
+  width: 240px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -104,7 +104,7 @@ h2 {
   width: 50%;
   background-color: #fff;
   position: absolute;
-  left: -170px;
+  left: -140px;
   top: 27px;
 }
 
@@ -116,7 +116,7 @@ h2 {
   background-color: #fff;
   position: absolute;
   top: 27px;
-  right: -170px;
+  right: -140px;
 }
 
 .reload {
