@@ -196,7 +196,11 @@ myObj = {
     ]
   }
 
-  movies = myObj.movies[Math.floor(Math.random() * myObj.movies.length)];
+movies = myObj.movies[Math.floor(Math.random() * myObj.movies.length)];
 
-  document.getElementById("movieTitle").innerHTML = movies.title;
-  document.getElementById("movieAnswer").innerHTML = movies.answer;
+document.getElementById("movieTitle").innerHTML = movies.title;
+document.getElementById("movieAnswer").innerHTML = movies.answer;
+
+function reloadPage() {
+    location.reload();
+}

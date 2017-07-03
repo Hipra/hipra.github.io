@@ -138,6 +138,8 @@ h2 {
   left: -20px;
 }
 
+.reload:hover { cursor: pointer; }
+
 @media screen and (max-width: 480px) {
 
   .wrapper {
