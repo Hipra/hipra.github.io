@@ -41,7 +41,7 @@ a {
 h1 {
   font-family: 'Ranga';
   font-weight: 400;
-  font-size: 48px;
+  font-size: 65px;
   text-transform: uppercase;
   letter-spacing: 0.2vw;
   text-align: center;
@@ -71,7 +71,7 @@ h2 {
 }
 
 .dots {
-  width: 532px;
+  width: 372px;
   height: 44px;
   background-image: url('../assets/dots.svg');
   transform: scaleY(-1);

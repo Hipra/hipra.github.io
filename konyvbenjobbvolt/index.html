@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
 	</head>
 	<body>
-		<div class="movie-image" style="background-image: url('images/harry-potter-and-the-prisoner-of-azkaban.jpg');"></div>
+		<div id="movieImage" class="movie-image"></div>
 		<div class="wrapper">
 			<h1 id="movieTitle"></h1>
 			<div class="dots"></div>
@@ -18,9 +18,9 @@
 		</div>
 		<div class="footer-wrapper">
 			<div class="link-box">
-				<a href="http://www.imdb.com/title/">IMDb</a>
-				<a href="#">Goodreads</a>
-				<a onclick="reloadPage()" class="reload"></a>
+				<a id="movieImdb">IMDb</a>
+				<a id="movieGoodreads">Goodreads</a>
+				<a onclick="location.reload()" class="reload"></a>
 			</div>
 		</div>
 
