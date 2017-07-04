@@ -229,6 +229,34 @@ myObj = {
           "answer": "Igen.",
           "URLImdb": "tt0087803",
           "URLGoodreads": "5470.1984"
+      },
+      {
+          "title": "Lord of the Flies",
+          "image": "lord-of-the-flies.jpg",
+          "answer": "Igen.",
+          "URLImdb": "tt0057261",
+          "URLGoodreads": "7624.Lord_of_the_Flies"
+      },
+      {
+          "title": "Stalker",
+          "image": "stalker.jpg",
+          "answer": "Nem.",
+          "URLImdb": "tt0079944",
+          "URLGoodreads": "331256.Roadside_Picnic"
+      },
+      {
+          "title": "Childhood's End",
+          "image": "childhoods-end.jpg",
+          "answer": "Igen.",
+          "URLImdb": "tt4146128",
+          "URLGoodreads": "414999.Childhood_s_End"
+      },
+      {
+          "title": "World War Z",
+          "image": "world-war-z.jpg",
+          "answer": "Igen.",
+          "URLImdb": "tt0816711",
+          "URLGoodreads": "8908.World_War_Z"
       }
     ]
   }
