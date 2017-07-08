@@ -301,6 +301,78 @@ myObj = {
           "rateGoodreads": "4.08",
           "URLRotten": "/m/blade_runner",
           "rateRotten": "8.5"
+      },
+      {
+          "title": "The Firm",
+          "image": "the-firm.jpg",
+          "URLGoodreads": "5358.The_Firm",
+          "rateGoodreads": "3.98",
+          "URLRotten": "/m/1044522_firm",
+          "rateRotten": "6.2"
+      },
+      {
+          "title": "The Firm",
+          "image": "the-firm.jpg",
+          "URLGoodreads": "5358.The_Firm",
+          "rateGoodreads": "3.98",
+          "URLRotten": "/m/1044522_firm",
+          "rateRotten": "6.2"
+      },
+      {
+          "title": "Twilight",
+          "image": "twilight.jpg",
+          "URLGoodreads": "41865.Twilight",
+          "rateGoodreads": "3.57",
+          "URLRotten": "/m/twilight",
+          "rateRotten": "5.4"
+      },
+      {
+          "title": "The Da Vinci Code",
+          "image": "the-da-vinci-code.jpg",
+          "URLGoodreads": "968.The_Da_Vinci_Code",
+          "rateGoodreads": "3.79",
+          "URLRotten": "/m/da_vinci_code",
+          "rateRotten": "4.8"
+      },
+      {
+          "title": "Memoirs of Geisha",
+          "image": "memoirs-of-geisha.jpg",
+          "URLGoodreads": "930.Memoirs_of_a_Geisha",
+          "rateGoodreads": "4.08",
+          "URLRotten": "/m/memoirs_of_a_geisha",
+          "rateRotten": "5.4"
+      },
+      {
+          "title": "Pride and Prejudice",
+          "image": "pride-and-prejudice.jpg",
+          "URLGoodreads": "1885.Pride_and_Prejudice",
+          "rateGoodreads": "4.24",
+          "URLRotten": "/m/1153077_1153077_pride_and_prejudice",
+          "rateRotten": "7.7"
+      },
+      {
+          "title": "To Kill a Mockingbird",
+          "image": "to-kill-a-mockingbird.jpg",
+          "URLGoodreads": "2657.To_Kill_a_Mockingbird",
+          "rateGoodreads": "4.25",
+          "URLRotten": "/m/to_kill_a_mockingbird",
+          "ratRotten": "8.8"
+      },
+      {
+          "title": "The Twilight Saga: New Moon",
+          "image": "new-moon.jpg",
+          "URLGoodreads": "49041.New_Moon",
+          "rateGoodreads": "3.52",
+          "URLRotten": "/m/twilight_saga_new_moon",
+          "ratRotten": "4.7"
+      },
+      {
+          "title": "The Hunger Games",
+          "image": "the-hunger-games",
+          "URLGoodreads": "2767052-the-hunger-games",
+          "rateGoodreads": "4.34",
+          "URLRotten": "/m/the_hunger_games",
+          "ratRotten": "7.2"
       }
     ]
   }
