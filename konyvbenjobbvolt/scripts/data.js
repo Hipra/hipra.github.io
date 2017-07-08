@@ -345,7 +345,6 @@ myObj = {
 movies = myObj.movies[Math.floor(Math.random() * myObj.movies.length)];
 
 document.getElementById("movieTitle").innerHTML = movies.title;
-document.getElementById("movieAnswer").innerHTML = movies.answer;
 document.getElementById('movieImage').style.backgroundImage = 'url(' + "images/" + movies.image + ')';
 document.getElementById("movieImdb").href = 'http://www.imdb.com/title/' + movies.URLImdb;
 document.getElementById("movieImdb").target = "_blank";
@@ -353,3 +352,12 @@ document.getElementById("movieGoodreads").href = 'https://www.goodreads.com/book
 document.getElementById("movieGoodreads").target = "_blank";
 document.getElementById("ratingImdb").innerHTML = movies.rateImdb;
 document.getElementById("ratingGoodreads").innerHTML = movies.rateGoodreads;
+
+var propImdb = movies.rateImdb / 10;
+var propGoodreads = movies.rateGoodreads / 5;
+
+if ( propImdb < propGoodreads ) {
+    document.getElementById("movieAnswer").innerHTML = "Igen";
+} else {
+    document.getElementById("movieAnswer").innerHTML = "Nem";
+}
