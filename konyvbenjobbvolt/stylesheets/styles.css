@@ -90,12 +90,23 @@ h2 {
 .link-box {
   border: solid 4px #fff;
   padding: 0 16px;
-  width: 240px;
+  width: 320px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 16px;
+  text-align: left;
+}
+
+.rating {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.scale {
+  opacity: 0.4;
+  font-weight: 400;
 }
 
 .footer-wrapper:before {
@@ -105,8 +116,8 @@ h2 {
   width: 50%;
   background-color: #fff;
   position: absolute;
-  left: -140px;
-  top: 27px;
+  left: -180px;
+  top: 35px;
 }
 
 .footer-wrapper:after {
@@ -116,14 +127,14 @@ h2 {
   width: 50%;
   background-color: #fff;
   position: absolute;
-  top: 27px;
-  right: -140px;
+  top: 35px;
+  right: -180px;
 }
 
 .reload {
   display: inline-block;
   width: 36px;
-  height: 48px;
+  height: 64px;
   background-image: url(../assets/icon-reload.svg);
   background-repeat: no-repeat;
   background-position: center;
