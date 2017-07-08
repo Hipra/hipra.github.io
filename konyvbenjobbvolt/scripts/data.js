@@ -311,8 +311,8 @@ myObj = {
           "URLGoodreads": "28676.American_Psycho",
           "rateImdb": "7.6",
           "rateGoodreads": "3.81",
-          "URLRotten": "",
-          "rateRotten": ""
+          "URLRotten": "/m/american_psycho",
+          "rateRotten": "6.3"
       },
       {
           "title": "Tinker Tailor Soldier Spy",
