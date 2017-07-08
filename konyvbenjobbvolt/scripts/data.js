@@ -356,7 +356,7 @@ myObj = {
           "URLGoodreads": "2657.To_Kill_a_Mockingbird",
           "rateGoodreads": "4.25",
           "URLRotten": "/m/to_kill_a_mockingbird",
-          "ratRotten": "8.8"
+          "rateRotten": "8.8"
       },
       {
           "title": "The Twilight Saga: New Moon",
@@ -364,15 +364,15 @@ myObj = {
           "URLGoodreads": "49041.New_Moon",
           "rateGoodreads": "3.52",
           "URLRotten": "/m/twilight_saga_new_moon",
-          "ratRotten": "4.7"
+          "rateRotten": "4.7"
       },
       {
           "title": "The Hunger Games",
-          "image": "the-hunger-games",
+          "image": "the-hunger-games.jpg",
           "URLGoodreads": "2767052-the-hunger-games",
           "rateGoodreads": "4.34",
           "URLRotten": "/m/the_hunger_games",
-          "ratRotten": "7.2"
+          "rateRotten": "7.2"
       }
     ]
   }
