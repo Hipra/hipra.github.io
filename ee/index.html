@@ -5,7 +5,7 @@
 <script>
 $(document).ready(function(){
     $("button").click(function(){
-        $.getJSON("demo_ajax_json.js", function(result){
+        $.getJSON("https://www.goodreads.com/book/review_counts.json?key=dKgyTIujA5dkMYwNkjx3Qw&isbns=0596009208", function(result){
             $.each(result, function(i, field){
                 $("div").append(field + " ");
             });
