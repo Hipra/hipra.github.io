@@ -365,6 +365,78 @@ myObj = {
           "rateGoodreads": "4.34",
           "URLRotten": "/m/the_hunger_games",
           "rateRotten": "7.2"
+      },
+      {
+          "title": "Angels and Demons",
+          "image": "angels-and-demons.jpg",
+          "URLGoodreads": "960.Angels_Demons",
+          "rateGoodreads": "3.85",
+          "URLRotten": "/m/1189217_angels_and_demons",
+          "rateRotten": "5.1"
+      },
+      {
+          "title": "Interview with the Vampire",
+          "image": "interview-with-the-vampire.jpg",
+          "URLGoodreads": "43763.Interview_with_the_Vampire",
+          "rateGoodreads": "3.97",
+          "URLRotten": "/m/interview_with_the_vampire",
+          "rateRotten": "5.9"
+      },
+      {
+          "title": "The Twilight Saga: Ecplipse",
+          "image": "the-twilight-eclipse.jpg",
+          "URLGoodreads": "428263.Eclipse",
+          "rateGoodreads": "3.69",
+          "URLRotten": "/m/1210749_eclipse",
+          "rateRotten": "5.5"
+      },
+      {
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "image": "the-fellowship-of-the-ring.jpg",
+          "URLGoodreads": "34.The_Fellowship_of_the_Ring",
+          "rateGoodreads": "4.33",
+          "URLRotten": "/m/the_lord_of_the_rings_the_fellowship_of_the_ring",
+          "rateRotten": "8.2"
+      },
+      {
+          "title": "The Lord of the Rings: The The Two Towers",
+          "image": "the-two-towers.jpg",
+          "URLGoodreads": "15241.The_Two_Towers",
+          "rateGoodreads": "4.42",
+          "URLRotten": "/m/the_lord_of_the_rings_the_two_towers",
+          "rateRotten": "8.5"
+      },
+      {
+          "title": "The Lord of the Rings: The Return of the King",
+          "image": "the-return-of-the-king.jpg",
+          "URLGoodreads": "18512.The_Return_of_the_King",
+          "rateGoodreads": "4.5",
+          "URLRotten": "/m/the_lord_of_the_rings_the_two_towers",
+          "rateRotten": "8.5"
+      },
+      {
+          "title": "The Hitchhiker's Guide to the Galaxy",
+          "image": "the-hitchhikers-guide.jpg",
+          "URLGoodreads": "11.The_Hitchhiker_s_Guide_to_the_Galaxy",
+          "rateGoodreads": "4.2",
+          "URLRotten": "/m/hitchhikers_guide_to_the_galaxy",
+          "rateRotten": "6.1"
+      },
+      {
+          "title": "Jurassic Park",
+          "image": "jurassic-park.jpg",
+          "URLGoodreads": "6424171-jurassic-park",
+          "rateGoodreads": "3.96",
+          "URLRotten": "/m/jurassic_park",
+          "rateRotten": "8.3"
+      },
+      {
+          "title": "The Devil Wears Prada",
+          "image": "the-devil-wears-prada.jpg",
+          "URLGoodreads": "5139.The_Devil_Wears_Prada",
+          "rateGoodreads": "3.7",
+          "URLRotten": "/m/the_devil_wears_prada",
+          "rateRotten": "6.7"
       }
     ]
   }
