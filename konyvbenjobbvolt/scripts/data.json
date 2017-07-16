@@ -311,14 +311,6 @@ myObj = {
           "rateRotten": "6.2"
       },
       {
-          "title": "The Firm",
-          "image": "the-firm.jpg",
-          "URLGoodreads": "5358.The_Firm",
-          "rateGoodreads": "3.98",
-          "URLRotten": "/m/1044522_firm",
-          "rateRotten": "6.2"
-      },
-      {
           "title": "Twilight",
           "image": "twilight.jpg",
           "URLGoodreads": "41865.Twilight",
