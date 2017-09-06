@@ -1,0 +1,30 @@
+$color-purple: #573BA3;
+
+.vezeto-blokk {
+  background-color: $color-purple;
+  padding-top: 32px;
+}
+
+.box-vezeto-anyag {
+  background-image: url('../images/cersei.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+.fejlec {
+  background-color: black;
+  height: 64px;
+  color: white;
+}
+
+.logo,
+.menu {
+  $size: 36px;
+  width: $size;
+  height: $size;
+  background-color: #f1f1f1;
+}
+
+.menu {
+  float: right;
+}
