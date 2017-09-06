@@ -2,6 +2,7 @@ $color-purple: #573BA3;
 
 .vezeto-blokk {
   background-color: $color-purple;
+  padding-top: 32px;
 }
 
 .box-vezeto-anyag {
@@ -13,6 +14,7 @@ $color-purple: #573BA3;
 .fejlec {
   background-color: black;
   height: 64px;
+  color: white;
 }
 
 .logo,
@@ -29,7 +31,7 @@ $color-purple: #573BA3;
 
 .container-legfrissebbek {
   position: absolute;
-  top: 100px;
+  top: 132px;
 }
 
 .box-legfrissebbek {

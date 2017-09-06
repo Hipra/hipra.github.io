@@ -1,5 +1,6 @@
 .vezeto-blokk {
-  background-color: #573BA3; }
+  background-color: #573BA3;
+  padding-top: 32px; }
 
 .box-vezeto-anyag {
   background-image: url("../images/cersei.jpg");
@@ -8,7 +9,8 @@
 
 .fejlec {
   background-color: black;
-  height: 64px; }
+  height: 64px;
+  color: white; }
 
 .logo,
 .menu {
@@ -21,7 +23,7 @@
 
 .container-legfrissebbek {
   position: absolute;
-  top: 100px; }
+  top: 132px; }
 
 .box-legfrissebbek {
   background-color: #fff;
