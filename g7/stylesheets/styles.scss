@@ -10,6 +10,11 @@ $color-purple: #573BA3;
   height: 600px;
 }
 
+.fejlec {
+  background-color: black;
+  height: 64px;
+}
+
 .logo,
 .menu {
   $size: 36px;
@@ -20,4 +25,14 @@ $color-purple: #573BA3;
 
 .menu {
   float: right;
+}
+
+.container-legfrissebbek {
+  position: absolute;
+  top: 100px;
+}
+
+.box-legfrissebbek {
+  background-color: #fff;
+  min-height: 400px;
 }
