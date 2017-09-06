@@ -6,12 +6,11 @@
   background-size: cover;
   height: 600px; }
 
-.menu-wrapper {
-  justify-content: flex-end;
-  display: flex; }
-
 .logo,
 .menu {
   width: 36px;
   height: 36px;
   background-color: #f1f1f1; }
+
+.menu {
+  float: right; }

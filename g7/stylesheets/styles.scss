@@ -10,15 +10,14 @@ $color-purple: #573BA3;
   height: 600px;
 }
 
-.menu-wrapper {
-  justify-content: flex-end;
-  display: flex;
-}
-
 .logo,
 .menu {
   $size: 36px;
   width: $size;
   height: $size;
   background-color: #f1f1f1;
+}
+
+.menu {
+  float: right;
 }
