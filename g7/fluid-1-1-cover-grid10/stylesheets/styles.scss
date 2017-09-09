@@ -24,6 +24,7 @@ body {
 
 .box-vezeto-anyag {
   background-image: url('../images/andrew-robles-280706.jpg');
+  background-position: center;
   background-size: cover;
   margin-bottom: 32px;
   margin: 0 -15px;
@@ -104,6 +105,7 @@ body {
   margin: 0 16px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cover-item {
@@ -112,6 +114,8 @@ body {
     min-height: 560px;
     display: flex;
   }
+
+  margin-bottom: 72px;
 
   .row {
     @media (max-width: 767px) {
@@ -147,6 +151,22 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 660px;
+  background-position: center;
+}
+
+.cover-image-2 {
+  align-items: stretch;
+  display: flex;
+  background-image: url('../images/brooke-cagle-193476.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 560px;
+  background-position: center;
+  padding: 0;
+
+  .cover-text {
+    background-color: transparentize($color-green, 0.2);
+  }
 }
 
 h1,
@@ -172,4 +192,10 @@ p {
 
 .fontos-item-3 {
   background-image: url('../images/tim-wright-131720.jpg');
+}
+
+.cover-item-2 {
+  .row {
+    margin: 0;
+  }
 }

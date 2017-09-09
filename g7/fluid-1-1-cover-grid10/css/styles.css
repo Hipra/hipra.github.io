@@ -14,6 +14,7 @@ body {
 
 .box-vezeto-anyag {
   background-image: url("../images/andrew-robles-280706.jpg");
+  background-position: center;
   background-size: cover;
   margin-bottom: 32px;
   margin: 0 -15px;
@@ -79,20 +80,22 @@ body {
   color: white;
   margin: 0 16px;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
   @media (max-width: 767px) {
     .fontos-item {
       margin-bottom: 48px; } }
 
-@media (max-width: 767px) {
-  .cover-item {
-    position: relative;
-    min-height: 560px;
-    display: flex; } }
-
-@media (max-width: 767px) {
-  .cover-item .row {
-    align-items: center; } }
+.cover-item {
+  margin-bottom: 72px; }
+  @media (max-width: 767px) {
+    .cover-item {
+      position: relative;
+      min-height: 560px;
+      display: flex; } }
+  @media (max-width: 767px) {
+    .cover-item .row {
+      align-items: center; } }
 
 .cover-text {
   background-color: transparent;
@@ -114,12 +117,25 @@ body {
   background-image: url("../images/brooke-cagle-193476.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 660px; }
+  min-height: 660px;
+  background-position: center; }
   @media (max-width: 767px) {
     .cover-image {
       position: absolute;
       top: 0;
       min-height: 560px; } }
+
+.cover-image-2 {
+  align-items: stretch;
+  display: flex;
+  background-image: url("../images/brooke-cagle-193476.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 560px;
+  background-position: center;
+  padding: 0; }
+  .cover-image-2 .cover-text {
+    background-color: rgba(22, 206, 194, 0.8); }
 
 h1,
 p {
@@ -139,3 +155,6 @@ p {
 
 .fontos-item-3 {
   background-image: url("../images/tim-wright-131720.jpg"); }
+
+.cover-item-2 .row {
+  margin: 0; }
