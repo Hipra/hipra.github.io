@@ -1,0 +1,141 @@
+body {
+  background-color: #f8f8f8; }
+
+@media (min-width: 768px) {
+  .vezeto-blokk {
+    background-color: #573BA3; } }
+
+@media (max-width: 767px) {
+  .vezeto-anyag {
+    position: relative;
+    top: -48px;
+    margin-bottom: -48px;
+    z-index: -1; } }
+
+.box-vezeto-anyag {
+  background-image: url("../images/andrew-robles-280706.jpg");
+  background-size: cover;
+  margin-bottom: 32px;
+  margin: 0 -15px;
+  height: 400px; }
+  @media (min-width: 768px) {
+    .box-vezeto-anyag {
+      height: 600px;
+      margin-bottom: 32px; } }
+
+@media (max-width: 767px) {
+  .trending-tags-fejlec {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .trending-tags-fejlec {
+    justify-content: center;
+    background-color: black;
+    height: 64px;
+    color: white;
+    align-items: center; } }
+
+.fejlec {
+  height: 48px;
+  align-items: center; }
+  @media (min-width: 768px) {
+    .fejlec {
+      background-color: transparent;
+      height: auto;
+      position: relative;
+      top: 36px; } }
+
+.logo,
+.menu {
+  width: 36px;
+  height: 36px;
+  background-color: #f1f1f1; }
+
+.menu {
+  float: right; }
+
+@media (min-width: 768px) {
+  .container-legfrissebbek {
+    position: absolute;
+    top: 160px;
+    width: 100%; } }
+
+.box-legfrissebbek {
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    .box-legfrissebbek {
+      min-height: 400px; } }
+
+.container-fontos-anyagok {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding-top: 64px;
+  padding-bottom: 64px; }
+
+.row-fontos-anyagok {
+  justify-content: center; }
+
+.fontos-item {
+  height: 440px;
+  color: white;
+  margin: 0 16px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media (max-width: 767px) {
+    .fontos-item {
+      margin-bottom: 48px; } }
+
+@media (max-width: 767px) {
+  .cover-item {
+    position: relative;
+    min-height: 560px;
+    display: flex; } }
+
+@media (max-width: 767px) {
+  .cover-item .row {
+    align-items: center; } }
+
+.cover-text {
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+  @media (max-width: 767px) {
+    .cover-text {
+      z-index: 1; } }
+  @media (min-width: 768px) {
+    .cover-text {
+      background-color: #16CEC2;
+      padding-left: 72px;
+      padding-right: 72px; } }
+
+.cover-image {
+  background-image: url("../images/brooke-cagle-193476.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 660px; }
+  @media (max-width: 767px) {
+    .cover-image {
+      position: absolute;
+      top: 0;
+      min-height: 560px; } }
+
+h1,
+p {
+  display: inline-block; }
+
+h1 {
+  font-size: 38px; }
+
+p {
+  font-size: 18px; }
+
+.fontos-item-1 {
+  background-image: url("../images/josh-g-342907.jpg"); }
+
+.fontos-item-2 {
+  background-image: url("../images/kai-pilger-262321.jpg"); }
+
+.fontos-item-3 {
+  background-image: url("../images/tim-wright-131720.jpg"); }
