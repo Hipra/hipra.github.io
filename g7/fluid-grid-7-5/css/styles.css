@@ -1,0 +1,22 @@
+.vezeto-blokk {
+  background-color: #573BA3;
+  padding-top: 32px; }
+
+.box-vezeto-anyag {
+  background-image: url("../images/cersei.jpg");
+  background-size: cover;
+  height: 600px; }
+
+.fejlec {
+  background-color: black;
+  height: 64px;
+  color: white; }
+
+.logo,
+.menu {
+  width: 36px;
+  height: 36px;
+  background-color: #f1f1f1; }
+
+.menu {
+  float: right; }
