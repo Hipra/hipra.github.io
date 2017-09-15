@@ -8,7 +8,6 @@ myObj = {
           "rateGoodreads": "4.44",
           "URLRotten": "/m/harry_potter_and_the_sorcerers_stone",
           "rateRotten": "7.1"
-
       },
       {
           "title": "Harry Potter and the Chamber of Secrets",
@@ -33,7 +32,6 @@ myObj = {
           "rateGoodreads": "4.52",
           "URLRotten": "/m/harry_potter_and_the_goblet_of_fire",
           "rateRotten": "7.5"
-
       },
       {
           "title": "Harry Potter and the Order of the Phoenix",
