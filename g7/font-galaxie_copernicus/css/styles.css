@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+.text_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.text_container.dark {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.text_container.dark h1,
+.text_container.dark p {
+  color: #fff;
+}
+
+.text_container.dark .explainer {
+  color: rgba(255,255,255,0.2);
+}
+
+.text_wrapper {
+  width: 730px;
+  margin: 0 auto 80px;
+  padding-top: 80px;
+}
+
+.explainer {
+  font-family: arial;
+  font-size: 14px;
+  color: rgba(0,0,0,0.25);
+}
+
+h1,
+p {
+  font-family: 'copernicus';
+}
+
+.h1-16 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.h1-32 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.h1-36 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.p-14 {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.p-16 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.p-20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@font-face {
+    font-family: "copernicus";
+    src: url("../fonts/Medium.woff") format('woff');
+}
+
+@font-face {
+    font-family: "copernicus";
+    src: url("../fonts/MediumItalic.woff") format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "copernicus";
+    src: url("../fonts/Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "copernicus";
+    src: url("../fonts/BoldItalic.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "copernicus";
+    src: url("../fonts/Extrabold.woff") format('woff');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "copernicus";
+    src: url("../fonts/ExtraboldItalic.woff") format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
