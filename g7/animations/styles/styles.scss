@@ -1,0 +1,165 @@
+$color-purple: #563ba3;
+$color-green: #B6F9D7;
+$color-black: rgba(0, 0, 0, 0.88);
+$color-dark-grey: rgba(0, 0, 0, 0.70);
+$base-transition-duration: 0.2s;
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+}
+
+.content-container {
+  width: 650px;
+  margin: 60px auto 0;
+}
+
+.title {
+  margin: 0 auto 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.content-background {
+  margin: 24px auto 60px;
+
+  &.black,
+  &.dark-grey,
+  &.purple {
+    padding: 40px;
+  }
+
+  &.black {
+    background-color: $color-black;
+  }
+
+  &.dark-grey {
+    background-color: $color-dark-grey;
+  }
+
+  &.purple {
+    background-color: $color-purple;
+  }
+}
+
+.light-background {
+}
+
+.black-background {
+  margin: 24px auto 60px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+
+.subtitle {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  margin: 0;
+}
+
+.button {
+  padding: 0.6rem 2.5rem 0.6rem 0.6rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+
+  &.purple {
+    border: solid 2px $color-purple;
+    color: $color-purple;
+
+    &:hover {
+      background-color: $color-purple;
+    }
+
+    &:after {
+      background-image: url('../assets/ic_arrow_forward_24px-purple.svg');
+    }
+  }
+
+  &.green {
+    border: solid 2px $color-green;
+    color: $color-green;
+
+    &.on-black {
+
+      &:hover {
+        background-color: $color-green;
+        color: $color-black;
+
+        &:after {
+          background-image: url('../assets/ic_arrow_forward_24px-black.svg');
+        }
+      }
+
+      &:after {
+        background-image: url('../assets/ic_arrow_forward_24px-green.svg');
+      }
+    }
+
+    &.on-dark-grey {
+
+      &:hover {
+        background-color: $color-green;
+        color: $color-dark-grey;
+
+        &:after {
+          opacity: 0.7;
+          background-image: url('../assets/ic_arrow_forward_24px-black.svg');
+        }
+      }
+
+      &:after {
+        background-image: url('../assets/ic_arrow_forward_24px-green.svg');
+      }
+    }
+
+    &.on-purple {
+
+      &:hover {
+        background-color: $color-green;
+        color: $color-purple;
+
+        &:after {
+          background-image: url('../assets/ic_arrow_forward_24px-purple.svg');
+        }
+      }
+
+      &:after {
+        background-image: url('../assets/ic_arrow_forward_24px-green.svg');
+      }
+    }
+  }
+
+  &:after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 4px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+
+  &:hover {
+    color: #fff;
+    transition-duration: $base-transition-duration;
+
+    &:after {
+      background-image: url('../assets/ic_arrow_forward_24px-white.svg');
+      transition-duration: $base-transition-duration;
+    }
+  }
+}
