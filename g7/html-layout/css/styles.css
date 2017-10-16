@@ -1,12 +1,12 @@
 body {
-  margin: 0; }
+  margin: 0;
+  -webkit-font-smoothing: antialiased; }
 
-.container-fluid {
+.container-container {
   display: flex;
   flex-wrap: wrap; }
 
 .content-left {
-  background-color: #ccc;
   width: 66.666vw;
   height: 66.666vw;
   position: relative; }
@@ -17,28 +17,27 @@ body {
     display: inline-block;
     height: 100%;
     position: absolute;
-    right: 0; }
+    right: 0;
+    top: 0; }
 
 .content-container-right {
   width: 33.333vw;
   height: 66.666vw; }
 
 .content-right-top {
-  background-color: #aaa;
   width: 33.333vw;
   height: 33.333vw;
   position: relative; }
   .content-right-top:after {
     content: '';
     background-color: white;
-    display: inline-block;
+    display: block;
     width: 100%;
     height: 1px;
     position: absolute;
     bottom: 0; }
 
 .content-right-bottom {
-  background-color: #999;
   width: 33.333vw;
   height: 33.333vw; }
 
@@ -46,7 +45,28 @@ body {
 .content-2,
 .content-3 {
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  display: flex; }
+  .content-1 .article-elements,
+  .content-2 .article-elements,
+  .content-3 .article-elements {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    bottom: 2%;
+    color: #fff; }
+  .content-1:before,
+  .content-2:before,
+  .content-3:before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(-180deg, transparent 20%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute; }
 
 .content-1 {
   background-image: url(../images/photo-1499909694555-1ae5b7067b1a.jpg); }
@@ -56,3 +76,29 @@ body {
 
 .content-3 {
   background-image: url(../images/content-3.jpg); }
+
+.content-1 .article-elements span {
+  font-size: 14px; }
+
+.content-1 .article-elements h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3vw;
+  line-height: 1.28;
+  margin: 24px 0; }
+
+.content-1 .article-elements p {
+  font-family: 'Merriweather';
+  font-size: 1.8vw; }
+
+.content-2 .article-elements span,
+.content-3 .article-elements span {
+  font-size: 14px; }
+
+.content-2 .article-elements h1,
+.content-3 .article-elements h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 1.28;
+  margin: 16px 0; }
