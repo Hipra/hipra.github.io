@@ -1,10 +1,18 @@
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0, 0, 0, 0.88); }
 
 .header {
   height: 54px;
   background-color: rgba(0, 0, 0, 0.88); }
+
+h1 {
+  font-family: 'Montserrat';
+  line-height: 1.36; }
+
+p {
+  font-family: 'Merriweather'; }
 
 .logo {
   width: 60px;
@@ -15,9 +23,15 @@ body {
   z-index: 9999;
   top: 2px; }
 
-.content-container {
+a {
+  color: #573BA3; }
+  a:hover {
+    text-decoration: none; }
+
+.top-content-container {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 64px; }
 
 .content-left {
   width: 66.666vw;
@@ -83,26 +97,24 @@ body {
     background-image: linear-gradient(-180deg, transparent 20%, rgba(0, 0, 0, 0.8) 100%); }
 
 .content-1 {
-  background-image: url(../images/photo-1499909694555-1ae5b7067b1a.jpg); }
+  background-image: url(../images/brazil-1024x1024.jpg); }
 
 .content-2 {
-  background-image: url(../images/content-2.jpg); }
+  background-image: url(../images/nfl_protest2-1024x1024.jpg); }
 
 .content-3 {
-  background-image: url(../images/content-3.jpg); }
+  background-image: url(../images/Screen-Shot-2017-10-16-at-16.22.13-660x660.png); }
 
 .content-1 .article-elements span {
   font-size: 14px; }
 
 .content-1 .article-elements h1 {
-  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 3vw;
   line-height: 1.28;
   margin: 24px 0; }
 
 .content-1 .article-elements p {
-  font-family: 'Merriweather';
   font-size: 1.8vw; }
 
 .content-2 .article-elements span,
@@ -114,5 +126,43 @@ body {
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 2vw;
-  line-height: 1.28;
   margin: 16px 0; }
+
+.ajanlo .doboz-cim {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+  margin-bottom: 40px; }
+  .ajanlo .doboz-cim span {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-bottom: solid 4px rgba(0, 0, 0, 0.88);
+    display: inline-block;
+    position: relative;
+    top: 4px; }
+
+.ajanlo-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .ajanlo-content h1 {
+    font-size: 20px;
+    font-weight: 700; }
+  .ajanlo-content p {
+    font-size: 16px; }
+  .ajanlo-content .ajanlo-img {
+    margin-bottom: 16px;
+    max-width: 100%;
+    max-height: 100%; }
+  .ajanlo-content .szerzo-datum-container {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center; }
+    .ajanlo-content .szerzo-datum-container .szerzo,
+    .ajanlo-content .szerzo-datum-container .datum-kategoria {
+      margin-left: 16px;
+      font-size: 14px; }
+    .ajanlo-content .szerzo-datum-container .szerzo {
+      font-weight: 600;
+      font-size: 16px; }
+    .ajanlo-content .szerzo-datum-container .datum-kategoria {
+      color: rgba(0, 0, 0, 0.5); }

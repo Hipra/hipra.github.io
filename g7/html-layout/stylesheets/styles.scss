@@ -1,12 +1,26 @@
+$color-black: rgba(0, 0, 0, 0.88);
+$color-grey: rgba(0, 0, 0, 0.5);
+$color-light_grey: rgba(0, 0, 0, 0.12);
+$color-purple: #573BA3;
+
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
+  color: $color-black;
 }
 
 .header {
   height: 54px;
-  background-color: rgba(0, 0, 0, 0.88);
+  background-color: $color-black;
 }
+
+h1 {
+  font-family: 'Montserrat';
+  line-height: 1.36;
+}
+
+p { font-family: 'Merriweather'; }
 
 .logo {
   width: 60px;
@@ -18,9 +32,18 @@ body {
   top: 2px;
 }
 
-.content-container {
+a {
+  color: $color-purple;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.top-content-container {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 64px;
 }
 
 .content-left {
@@ -95,9 +118,9 @@ body {
   }
 }
 
-.content-1 { background-image: url(../images/photo-1499909694555-1ae5b7067b1a.jpg); }
-.content-2 { background-image: url(../images/content-2.jpg); }
-.content-3 { background-image: url(../images/content-3.jpg); }
+.content-1 { background-image: url(../images/brazil-1024x1024.jpg); }
+.content-2 { background-image: url(../images/nfl_protest2-1024x1024.jpg); }
+.content-3 { background-image: url(../images/Screen-Shot-2017-10-16-at-16.22.13-660x660.png); }
 
 .content-1 {
   .article-elements {
@@ -106,7 +129,6 @@ body {
     }
 
     h1 {
-      font-family: 'Montserrat';
       font-weight: 700;
       font-size: 3vw;
       line-height: 1.28;
@@ -114,7 +136,6 @@ body {
     }
 
     p {
-      font-family: 'Merriweather';
       font-size: 1.8vw;
     }
   }
@@ -131,9 +152,66 @@ body {
       font-family: 'Montserrat';
       font-weight: 700;
       font-size: 2vw;
-      line-height: 1.28;
       margin: 16px 0;
     }
 
+  }
+}
+
+.ajanlo {
+
+  .doboz-cim {
+    border-bottom: solid 1px $color-light_grey;
+    margin-bottom: 40px;
+
+    span {
+      font-size: 36px;
+      font-weight: 900;
+      text-transform: uppercase;
+      border-bottom: solid 4px $color-black;
+      display: inline-block;
+      position: relative;
+      top: 4px;
+    }
+  }
+}
+
+.ajanlo-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .ajanlo-img {
+    margin-bottom: 16px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .szerzo-datum-container {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+
+    .szerzo,
+    .datum-kategoria {
+      margin-left: 16px;
+      font-size: 14px;
+    }
+
+    .szerzo {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .datum-kategoria { color: $color-grey; }
   }
 }
