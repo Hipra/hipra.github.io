@@ -181,6 +181,24 @@ a {
   }
 }
 
+.ajanlo-full {
+  max-width: 100%;
+  padding: 0;
+}
+
+.ajanlo,
+.ajanlo-full {
+
+  &:after {
+    content: '';
+    height: 2px;
+    background-color: $color-light_grey;
+    width: 100%;
+    display: block;
+    margin: 60px 0;
+  }
+}
+
 .ajanlo-content {
   display: flex;
   justify-content: center;
@@ -193,10 +211,11 @@ a {
 
   p {
     font-size: 16px;
+    font-weight: 300;
   }
 
   .ajanlo-img {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     max-width: 100%;
     max-height: 100%;
   }
@@ -219,4 +238,22 @@ a {
 
     .datum-kategoria { color: $color-grey; }
   }
+}
+
+.full-width-ajanlo {
+  display: flex;
+
+  &.light-grey {
+    background-color: $color-light_grey;
+  }
+}
+
+.full-width-ajanlo-img {
+  width: 50vw;
+  height: 50vw;
+}
+
+.full-width-ajanlo-content {
+  margin: 0 15px 0 30px;
+  max-width: 595px;
 }
