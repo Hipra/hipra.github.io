@@ -198,13 +198,7 @@ a {
   }
 }
 
-.ajanlo-full {
-  max-width: 100%;
-  padding: 0;
-}
-
-.ajanlo,
-.ajanlo-full {
+.ajanlo {
 
   &:after {
     content: '';
@@ -228,7 +222,7 @@ a {
 
   p {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .ajanlo-img {
@@ -255,76 +249,4 @@ a {
   }
 
   .datum-kategoria { color: $color-grey; }
-}
-
-.full-width-ajanlo {
-  display: flex;
-
-  &.light-grey {
-    background-color: $color-light_grey;
-  }
-}
-
-.full-width-ajanlo-img {
-  width: 50vw;
-  height: 50vw;
-}
-
-.full-width-ajanlo-content {
-  margin: 0 15px 0 30px;
-  max-width: 595px;
-  align-self: center;
-
-  h1 {
-    font-weight: 800;
-    font-size: 2.8vw;
-    margin: 32px 0 24px 0;
-  }
-
-  p {
-    font-size: 1.6vw;
-    margin-bottom: 32px;
-  }
-}
-
-.sharing-is-caring {
-  margin-bottom: 16px;
-}
-
-.button {
-  font-family: 'Montserrat';
-  padding: 2px 12px;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold;
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-  height: 40px;
-
-  span {
-    display: inline-block;
-    position: relative;
-    top: -3px;
-
-    .bekezdesek {
-      font-weight: 500;
-      position: relative;
-      top: 0;
-    }
-  }
-
-  svg {
-    position: relative;
-    top: 4px;
-  }
-
-  &.purple {
-    border: solid 2px $color-purple;
-    color: $color-purple;
-
-    &:hover {
-      background-color: $color-purple;
-    }
-  }
 }
