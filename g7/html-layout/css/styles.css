@@ -158,6 +158,22 @@ a {
     position: relative;
     top: 4px; }
 
+<<<<<<< HEAD
+=======
+.ajanlo-full {
+  max-width: 100%;
+  padding: 0; }
+
+.ajanlo:after,
+.ajanlo-full:after {
+  content: '';
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.12);
+  max-width: 1280px;
+  display: block;
+  margin: 60px auto; }
+
+>>>>>>> parent of 803b2e3... g7
 .ajanlo-content {
   display: flex;
   justify-content: center;
@@ -167,7 +183,7 @@ a {
     font-weight: 700; }
   .ajanlo-content p {
     font-size: 16px;
-    font-weight: 400; }
+    font-weight: 300; }
   .ajanlo-content .ajanlo-img {
     margin-bottom: 24px;
     max-width: 100%;
@@ -186,3 +202,54 @@ a {
     font-size: 16px; }
   .szerzo-datum-container .datum-kategoria {
     color: rgba(0, 0, 0, 0.5); }
+
+.full-width-ajanlo {
+  display: flex; }
+  .full-width-ajanlo.light-grey {
+    background-color: rgba(0, 0, 0, 0.12); }
+
+.full-width-ajanlo-img {
+  width: 50vw;
+  height: 50vw; }
+
+.full-width-ajanlo-content {
+  margin: 0 15px 0 30px;
+  max-width: 595px;
+  align-self: center; }
+  .full-width-ajanlo-content h1 {
+    font-weight: 800;
+    font-size: 2.8vw;
+    margin: 32px 0 24px 0; }
+  .full-width-ajanlo-content p {
+    font-size: 1.6vw;
+    margin-bottom: 32px; }
+
+.sharing-is-caring {
+  margin-bottom: 16px; }
+
+.button {
+  font-family: 'Montserrat';
+  padding: 2px 12px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px; }
+  .button span {
+    display: inline-block;
+    position: relative;
+    top: -3px; }
+    .button span .bekezdesek {
+      font-weight: 500;
+      position: relative;
+      top: 0; }
+  .button svg {
+    position: relative;
+    top: 4px; }
+  .button.purple {
+    border: solid 2px #573BA3;
+    color: #573BA3; }
+    .button.purple:hover {
+      background-color: #573BA3; }
