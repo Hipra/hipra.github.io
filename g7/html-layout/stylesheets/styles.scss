@@ -198,18 +198,6 @@ a {
   }
 }
 
-.ajanlo {
-
-  &:after {
-    content: '';
-    height: 2px;
-    background-color: $color-light_grey;
-    max-width: 1280px;
-    display: block;
-    margin: 60px auto;
-  }
-}
-
 .ajanlo-content {
   display: flex;
   justify-content: center;
