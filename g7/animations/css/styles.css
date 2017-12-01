@@ -92,7 +92,7 @@ body {
     right: 10px; }
   .button:hover {
     color: #fff;
-    transition-duration: 0.2s; }
+    transition-duration: 0.16s; }
     .button:hover:after {
       background-image: url("../assets/ic_arrow_forward_24px-white.svg");
-      transition-duration: 0.2s; }
+      transition-duration: 0.16s; }
