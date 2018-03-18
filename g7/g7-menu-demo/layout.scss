@@ -1,0 +1,46 @@
+body {
+  background-color: #333;
+  margin: 0;
+}
+
+.wrapper {
+  width: 1265px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hidden {
+  top: -54px;
+  transition: all 0.2s;
+}
+
+.show {
+  top: 0;
+  transition: all 0.2s;
+}
+
+.header {
+  background-image: url('header.png');
+  width: 100%;
+  height: 54px;
+  position: fixed;
+}
+
+.content {
+  background-image: url('content.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-color: white;
+  height: 2278px;
+}
+
+.logo {
+  width: 52px;
+  height: 101px;
+  background-image: url('logo.svg');
+  display: block;
+  position: fixed;
+  margin-left: 22px;
+  margin-top: 4px;
+}

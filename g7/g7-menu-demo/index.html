@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<title>G7 Menu Demo</title>
+		<link rel="stylesheet" type="text/css" href="layout.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if ($(window).scrollTop() > 850){
+					$('.header').addClass('hidden').removeClass('show');
+				} else {
+					$('.header').addClass('show').removeClass('hidden');
+				}
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header"></div>
+			<div class="logo"></div>
+			<div class="content"></div>
+		</div>
+	</body>
+  </html>
