@@ -15,6 +15,24 @@ body {
   top: 0;
   transition: all 0.2s; }
 
+.hidden-logo {
+  opacity: 0;
+  transition: all 0.2s; }
+
+.show-logo {
+  opacity: 1;
+  transition: all 0.2s; }
+
+.hidden-new-logo {
+  transition: all 1s;
+  position: absolute;
+  top: -100px; }
+
+.show-new-logo {
+  transition: all 1s;
+  position: fixed;
+  top: 8px; }
+
 .header {
   background-image: url("header.png");
   width: 100%;
@@ -37,3 +55,10 @@ body {
   position: fixed;
   margin-left: 22px;
   margin-top: 4px; }
+
+.new-logo {
+  width: 42px;
+  height: 93px;
+  background-image: url("logo-2.svg");
+  display: block;
+  margin-left: 26px; }

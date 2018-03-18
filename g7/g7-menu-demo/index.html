@@ -13,6 +13,18 @@
 				} else {
 					$('.header').addClass('show').removeClass('hidden');
 				}
+
+				if ($(window).scrollTop() > 850){
+					$('.logo').addClass('hidden-logo').removeClass('show-logo');
+				} else {
+					$('.logo').addClass('show-logo').removeClass('hidden-logo');
+				}
+
+				if ($(window).scrollTop() > 850){
+					$('.new-logo').addClass('show-new-logo').removeClass('hidden-new-logo');
+				} else {
+					$('.new-logo').addClass('hidden-new-logo').removeClass('show-new-logo');
+				}
 			});
 		});
 		</script>
@@ -21,6 +33,7 @@
 		<div class="wrapper">
 			<div class="header"></div>
 			<div class="logo"></div>
+			<div class="new-logo hidden-new-logo"></div>
 			<div class="content"></div>
 		</div>
 	</body>
