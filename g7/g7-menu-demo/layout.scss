@@ -20,26 +20,41 @@ body {
 }
 
 .hidden-logo {
+  animation: hide-logo 0.8;
   opacity: 0;
-  transition: all 0.2s;
 }
 
 .show-logo {
   opacity: 1;
-  transition: all 0.2s;
+  transition: all 1.6s;
+  position: fixed;
 }
 
 .hidden-new-logo {
-  transition: all 1s;
-  position: absolute;
+  position: fixed;
+  animation: hide-logo 1s;
   top: -100px;
 }
 
 .show-new-logo {
-  transition: all 1s;
   position: fixed;
+  animation: slide-in 1s;
   top: 8px;
+}
 
+@keyframes slide-in {
+  0% { top: -100px; }
+  100% { top: 8px; }
+}
+
+@keyframes slide-out {
+  0% { top: 8px; }
+  100% { top: -100px; }
+}
+
+@keyframes hide-logo {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 .header {
@@ -64,7 +79,7 @@ body {
   background-image: url('logo.svg');
   display: block;
   position: fixed;
-  margin-left: 22px;
+  margin-left: 18px;
   margin-top: 4px;
 }
 
@@ -73,5 +88,5 @@ body {
   height: 93px;
   background-image: url('logo-2.svg');
   display: block;
-  margin-left: 26px;
+  margin-left: 22px;
 }
