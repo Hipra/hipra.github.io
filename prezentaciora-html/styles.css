@@ -1,0 +1,95 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.image-1 {
+  background-image: url(images/01.jpg);
+  background-size: cover;
+  width: 1170px;
+  height: 2484px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image-1-link-1 {
+  height: 54px;
+  width: 627px;
+  position: absolute;
+  z-index: 1;
+  left: 124px;
+  top: 460px;
+}
+
+.image-1-link-2 {
+  height: 164px;
+  width: 297px;
+  position: absolute;
+  z-index: 1;
+  right: 130px;
+  top: 1554px;
+}
+
+.image-1-link-1 a {
+  display: inline-block;
+  height: 54px;
+  width: 100%;
+}
+
+.image-1-link-2 a {
+  display: inline-block;
+  height: 164px;
+  width: 100%;
+}
+
+.image-2 {
+  margin: 0 auto;
+  background-image: url(images/02.jpg);
+  background-size: cover;
+  width: 961px;
+  height: 644px;
+  position: relative;
+}
+
+.image-2-link {
+  height: 46px;
+  width: 453px;
+  position: absolute;
+  z-index: 1;
+  left: 143px;
+  top: 460px;
+}
+
+.image-2-link a {
+  display: inline-block;
+  height: 46px;
+  width: 100%;
+}
+
+.image-3 {
+  margin: 0 auto;
+  background-image: url(images/03.jpg);
+  background-size: cover;
+  width: 1246px;
+  height: 665px;
+  position: relative;
+}
+
+.image-3-link {
+  height: 178px;
+  width: 320px;
+  position: absolute;
+  z-index: 1;
+  right: 158px;
+  top: 350px;
+}
+
+.image-3-link a {
+  display: inline-block;
+  height: 178px;
+  width: 100%;
+}
