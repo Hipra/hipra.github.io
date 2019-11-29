@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Assign Test</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="site-background">
+        <div class="table-header-activated">
+            <a class="translator-dropdown-button"></a>
+            <div class="translator-dropdown"></div>
+        </div>
+        <div class="row row_1">
+                <a class="translator-box">
+                    <div class="assign-popout"></div>
+                </a>
+            <a class="checkbox"></a>
+            <div class="selected-state"></div>
+        </div>
+        <div class="row row_2">
+                <a class="translator-box">
+                    <div class="assign-popout"></div>
+                </a>
+            <a class="checkbox"></a>
+            <div class="selected-state"></div>
+        </div>
+        <div class="row row_3">
+                <a class="translator-box">
+                    <div class="assign-popout"></div>
+                </a>
+            <a class="checkbox"></a>
+            <div class="selected-state"></div>
+        </div>
+        <div class="row row_4">
+                <a class="translator-box">
+                    <div class="assign-popout"></div>
+                </a>
+            <a class="checkbox"></a>
+            <div class="selected-state"></div>
+        </div>
+        <div class="row row_5">
+                <a class="translator-box">
+                    <div class="assign-popout"></div>
+                </a>
+            <a class="checkbox"></a>
+            <div class="selected-state"></div>
+        </div>
+        <div class="row row_6">
+                <a class="translator-box">
+                    <div class="assign-popout"></div>
+                </a>
+            <a class="checkbox"></a>
+            <div class="selected-state"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script>
+        $( ".checkbox" ).click(function() {
+        $(this).parent('.row').toggleClass( "active-checkbox" );
+        $( ".table-header-activated").addClass( "active-table-header" );
+        });
+    </script>
+
+    <script>
+        $( ".translator-box" ).click(function() {
+        $(this).children('.assign-popout').toggleClass( "active-popout" );
+        });
+    </script>
+    
+    <script>
+        $( ".translator-dropdown-button" ).click(function() {
+        $(".translator-dropdown").toggleClass( "activated" );
+        });
+    </script>
+
+</body>
+</html>
